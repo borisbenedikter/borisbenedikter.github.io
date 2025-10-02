@@ -17,7 +17,7 @@ My research is driven by this fundamental question. Traditional control methods 
     <div class="research-card">
         <div class="card-text">
             <h3>Convex Optimization</h3>
-            <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear control problems. By reformulating them into convex subproblems, using techniques like Lossless Convexification and Sequential Convex Programming, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
+            <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear control problems. By reformulating them into convex subproblems, using techniques like <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
             <p><strong>Keywords:</strong> Lossless Convexification, Sequential Convex Programming (SCP).</p>
         </div>
         <div class="card-image">
@@ -30,14 +30,14 @@ My research is driven by this fundamental question. Traditional control methods 
         </div>
         <div class="card-text">
             <h3>Model Predictive Control</h3>
-            <p>I have integrated these fast optimization methods into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful real-time guidance strategy that adapts to live conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous rocket guidance and planetary landing.</p>
+            <p>I have integrated these fast optimization methods into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful <strong>real-time guidance strategy</strong> that adapts to live conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous <strong>rocket guidance</strong> and <strong>planetary landing</strong>.</p>
             <p><strong>Keywords:</strong> Real-Time Optimization, Guidance & Control.</p>
         </div>
     </div>
     <div class="research-card">
         <div class="card-text">
             <h3>Stochastic Optimal Control</h3>
-            <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through Covariance Control (CC). This framework moves beyond deterministic planning to simultaneously optimize a nominal trajectory and a robust feedback policy, effectively steering the system's probability distribution from start to finish. My key contribution is a lossless convex reformulation of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
+            <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>. This framework moves beyond deterministic planning to simultaneously optimize a nominal trajectory and a robust feedback policy, effectively steering the system's probability distribution from start to finish. My key contribution is a <strong>lossless convex reformulation</strong> of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
             <p><strong>Keywords:</strong> Covariance Control, Chance Constraints, Stochastic Programming.</p>
         </div>
         <div class="card-image">
@@ -46,12 +46,22 @@ My research is driven by this fundamental question. Traditional control methods 
     </div>
     <div class="research-card">
         <div class="card-image">
-            <img src="{{ '/assets/img/research/convex.png' | relative_url }}" alt="Machine Learning">
+            <img src="{{ '/assets/img/research/pinn.png' | relative_url }}" alt="Physics-Informed Neural Networks">
         </div>
         <div class="card-text">
-            <h3>Machine Learning for Autonomous Systems</h3>
-            <p>To bridge the gap between simplified models and real-world complexity, I integrate machine learning to enhance adaptability while maintaining structure. This includes developing <strong>Physics-Informed Neural Networks (PINNs)</strong> that embed physical laws into their training and creating <strong>RL-Enhanced MPC</strong>, where reinforcement learning improves robustness without sacrificing interpretability.</p>
-            <p><strong>Keywords:</strong> Pontryagin Neural Networks (PoNNs), Imitation Learning, Transformers.</p>
+            <h3>Physics-Informed Neural Networks (PINNs)</h3>
+            <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions are not only data-driven but also physically consistent and optimal.</p>
+            <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Data-Driven Methods.</p>
+        </div>
+    </div>
+    <div class="research-card">
+        <div class="card-text">
+            <h3>RL-Enhanced MPC</h3>
+            <p>To combine the constraint-awareness and interpretability of <strong>MPC</strong> and the robustness and adaptability of <strong>Reinforcement Learning (RL)</strong>, I co-developed RL-Enhanced MPC (RLE-MPC). The RL agent learns small, corrective adjustments to the MPC's cost function in a perturbed simulation environment. The combined controller shows increased <strong>robustness</strong> to uncertainties than standalone MPC, while showing improved <strong>generalization</strong> to unseen scenarios compared to standalone RL, achieving overall superior performance.</p>
+            <p><strong>Keywords:</strong> Reinforcement Learning, Model Predictive Control, Robust Control, Real-Time Guidance.</p>
+        </div>
+        <div class="card-image">
+            <img src="{{ '/assets/img/research/rl-mpc.png' | relative_url }}" alt="RL-Enhanced MPC">
         </div>
     </div>
 </div>
