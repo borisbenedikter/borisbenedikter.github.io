@@ -1,0 +1,328 @@
+/* --- General Styles --- */
+:root {
+    --primary-color: #003366; /* A professional dark blue */
+    --secondary-color: #005f9e;
+    --accent-color: #e37222; /* An accent color, e.g., for highlights */
+    --text-color: #333333;
+    --light-gray: #f4f4f4;
+    --white: #ffffff;
+    --header-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --body-font: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.7;
+    color: var(--text-color);
+    margin: 0;
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: var(--header-font);
+    color: var(--primary-color);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; border-bottom: 2px solid var(--light-gray); padding-bottom: 10px; }
+h3 { font-size: 1.5rem; color: var(--secondary-color); }
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+strong {
+    color: var(--primary-color);
+}
+
+/* --- Header & Navigation --- */
+header {
+    background-color: var(--white);
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-family: var(--header-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.logo-block {
+    text-decoration: none; /* Removes underline from the link block */
+}
+
+.logo-block .logo-title {
+    font-family: var(--header-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    display: block; /* Makes it a block element */
+    line-height: 1.2; /* Adjust line height */
+}
+
+.logo-block .logo-subtitle {
+    font-family: var(--header-font);
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    display: block; /* Makes it a block element */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    font-family: var(--header-font);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding-bottom: 5px;
+}
+
+nav a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* --- Main Content --- */
+main {
+    padding: 2rem 0;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: var(--white);
+}
+
+/* --- Footer Links --- */
+.footer-links {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ffffff33; /* A semi-transparent white line */
+}
+
+.footer-links p {
+    margin: 0.5rem 0;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+/* --- Homepage Specific Styles --- */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 4rem 0;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text .subtitle {
+    font-size: 1.25rem;
+    font-family: var(--header-font);
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+/* You can keep this part to center the image within the layout */
+.hero-image-placeholder {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+}
+
+/* Apply the circular styling directly to the image */
+.hero-image-placeholder img {
+    /* Make the image fill the container */
+    width: 100%;
+    height: 100%;
+    
+    /* Crop to fit the container without distortion */
+    object-fit: cover; 
+    
+    /* Apply the circular shape */
+    border-radius: 50%; 
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 3rem;
+}
+
+.highlight-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* --- Research Page Styles --- */
+.research-vision {
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.research-vision blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--primary-color);
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.research-card {
+    border: 1px solid #ddd;
+    border-left: 5px solid var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+}
+
+.research-thrusts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* --- Publications Page Styles --- */
+.pub-stats {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    background-color: var(--light-gray);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.pub-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pub-list li {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--light-gray);
+}
+
+.pub-list li .title {
+    font-weight: bold;
+    display: block;
+    color: var(--primary-color);
+}
+
+.pub-list li .authors {
+    font-size: 0.9rem;
+}
+
+.pub-list li .venue {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+}
+
+.pub-list li .links a {
+    margin-right: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* --- Teaching & About Page Styles --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.timeline {
+    list-style-type: none;
+    padding-left: 0;
+    border-left: 2px solid var(--light-gray);
+    padding-left: 20px;
+}
+.timeline li {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.timeline li::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+.timeline .date {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+.timeline .institution {
+    font-style: italic;
+}
