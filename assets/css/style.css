@@ -231,21 +231,35 @@ footer a {
 
 .research-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr; /* Creates a single column */
+    gap: 30px; /* Adjust the space between cards */
 }
 
 .research-card {
+    display: flex; /* Arranges items side-by-side */
+    align-items: center; /* Vertically centers the text and image */
+    gap: 30px; /* Adjusts space between text and image */
+    
     border: 1px solid #ddd;
     border-left: 5px solid var(--primary-color);
     padding: 1.5rem;
     border-radius: 0 8px 8px 0;
 }
 
-.research-thrusts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+.card-text {
+    flex: 1; /* Allows the text block to grow and fill available space */
+}
+
+.card-image {
+    flex-basis: 350px; /* Sets a fixed width for the image container */
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Adds rounded corners to the image */
+    display: block;
 }
 
 /* --- Publications Page Styles --- */
