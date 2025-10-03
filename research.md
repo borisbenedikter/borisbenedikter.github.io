@@ -22,6 +22,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <a href="#physics-informed-neural-networks" class="jump-btn">Physics-Informed Neural Networks</a>
             <a href="#rl-enhanced-mpc" class="jump-btn">RL-Enhanced MPC</a>
             <a href="#warm-starting" class="jump-btn">Warm-Starting Optimization</a>
+            <a href="#orbit-determination" class="jump-btn">Orbit Determination</a>
         </div>
     </div>
     <div class="jump-group">
@@ -36,6 +37,9 @@ My research is driven by this fundamental question. Traditional control methods 
 
 
 ## Past & Ongoing Research
+
+My research contributions focus on developing computationally efficient optimization techniques, advanced stochastic and robust control frameworks, and integrated physics-informed and learning-based methods to enhance reliability, adaptability, and real-time feasibility. These contributions span from rocket guidance and planetary landing to space situational awareness and orbit determination.
+
 <div class="research-grid">
     <div class="research-card" id="convex-optimization">
         <div class="card-text">
@@ -57,8 +61,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Model Predictive Control</h3>
             <p>I have integrated these fast optimization methods into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful <strong>real-time guidance strategy</strong> that adapts to live conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous <strong>rocket guidance</strong> and <strong>planetary landing</strong>.</p>
             <p><strong>Keywords:</strong> Real-Time Optimization, Guidance & Control.</p>
-            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/6.2020-4268" target="_blank" rel="noopener">Benedikter et al. (2020)</a></p>
-            <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2020autonomous %}</p> -->
+            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/6.2020-4268" target="_blank" rel="noopener">Benedikter et al. (2020)</a>, <a href="https://arxiv.org/abs/2212.06518" target="_blank" rel="noopener">Benedikter et al. (2021)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2020autonomous benedikter2021autonomous %}</p> -->
         </div>
     </div>
     <div class="research-card" id="stochastic-control">
@@ -79,7 +83,7 @@ My research is driven by this fundamental question. Traditional control methods 
         </div>
         <div class="card-text">
             <h3>Physics-Informed Neural Networks (PINNs)</h3>
-            <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions are not only data-driven but also physically consistent and optimal.</p>
+            <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions are not only data-driven but also physically consistent and optimal. I also used PINNs to for attitude estimation from <strong>light curves</strong> by embedding the governing <strong>kinematic equations</strong> into the loss function.</p>
             <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Data-Driven Methods.</p>
             <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener">D'Ambrosio et al. (2025)</a>, <a href="https://www.researchgate.net/publication/388421123_Physics-Informed_Machine_Learning_for_Attitude_Estimation_from_Light_Curves" target="_blank" rel="noopener">Benedikter et al. (2025)</a></p>
             <!-- <p><strong>Selected Publications:</strong> {% cite dambrosio2025physicsjournal benedikter2025physics %}</p> -->
@@ -106,6 +110,16 @@ My research is driven by this fundamental question. Traditional control methods 
             <p>I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate a <strong>high-quality initial guess</strong>, or "warm start," for a rigorous, optimization-based algorithm, dramatically reducing the convergence time of the formal solver.</p>
             <p><strong>Keywords:</strong> Imitation Learning, Warm Starting, Real-Time Optimization.</p>
             <!-- <p><strong>Selected Publications:</strong> {% cite federicideep2021 %}</p> -->
+        </div>
+    </div>
+    <div class="research-card" id="orbit-determination">
+        <div class="card-text">
+            <h3>Orbit Determination</h3>
+            <p>I developed <strong>TRACER</strong> (Tracking, Recognition, Analysis for Celestial Ephemeris Retrieval), a comprehensive software tool designed for space situational awareness. Integrated with the Space4 Center's telescope network, TRACER processes observational data to perform initial <strong>orbit determination</strong>, enabling the long-term <strong>tracking</strong> and <strong>cataloging</strong> of resident space objects.</p>
+            <p><strong>Keywords:</strong> Orbit Determination, Space Object Tracking, Cataloging, Space Situational Awareness.</p>
+        </div>
+        <div class="card-image">
+            <img src="{{ '/assets/img/research/orbit_determination.png' | relative_url }}" alt="Orbit Determination">
         </div>
     </div>
 </div>
