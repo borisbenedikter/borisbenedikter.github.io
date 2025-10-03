@@ -18,10 +18,11 @@ My research is driven by this fundamental question. Traditional control methods 
     <a href="#stochastic-control" class="jump-btn">Stochastic Optimal Control</a>
     <a href="#physics-informed-neural-networks" class="jump-btn">Physics-Informed Neural Networks</a>
     <a href="#rl-enhanced-mpc" class="jump-btn">RL-Enhanced MPC</a>
+    <a href="#warm-starting" class="jump-btn">Warm-Starting Optimization</a>
 </div>
 
 
-## Past & Current Research
+## Past & Ongoing Research
 <div class="research-grid">
     <div class="research-card" id="convex-optimization">
         <div class="card-text">
@@ -73,35 +74,47 @@ My research is driven by this fundamental question. Traditional control methods 
             <img src="{{ '/assets/img/research/rl-mpc.png' | relative_url }}" alt="RL-Enhanced MPC">
         </div>
     </div>
+    <div class="research-card" id="warm-starting">
+        <div class="card-image">
+            <img src="{{ '/assets/img/research/warm_start.png' | relative_url }}" alt="Warm-Starting Optimization with Learning">
+        </div>
+        <div class="card-text">
+            <h3>Warm-Starting Optimization with Learning</h3>
+            <p>I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate a <strong>high-quality initial guess</strong>, or "warm start," for a rigorous, optimization-based algorithm, dramatically reducing the convergence time of the formal solver.</p>
+            <p><strong>Keywords:</strong> Imitation Learning, Warm Starting, Real-Time Optimization.</p>
+        </div>
+    </div>
 </div>
 
-## Future Research Thrusts
+## Research Vision
+My research is driven by a long-term vision to create the scientific and algorithmic foundations for <strong>trustworthy autonomous systems</strong>. This requires a unified framework that addresses three core challenges at the intersection of control theory, optimization, and machine learning.
+
 <div class="research-grid">
     <div class="research-card">
         <div class="card-text">
-            <h3>1. Safe-by-Design Hybrid AI</h3>
-            <p>This thrust unifies the adaptability of AI with the rigor of control theory. I investigate how high-capacity models like Transformers can warm-start rigorous optimization methods and how AI can be designed to embed physical laws and safety constraints directly into its structure, making it inherently trustworthy.</p>
+            <h3>1. Uniting Learning and Rigor</h3>
+            <p>The central scientific challenge is to fuse the adaptability of AI with the formal guarantees of control theory so that learning improves performance without compromising verifiability. My vision is to create <strong>inherently trustworthy hybrid systems</strong> by design. This involves using high-capacity models to generate high-quality warm-starts for rigorous optimizers and designing AI that embeds physical laws and safety constraints directly into its structure, ensuring that our systems are both powerful and provably safe.</p>
         </div>
         <div class="card-image">
-            <img src="{{ '/assets/img/research/hybrid_ai.png' | relative_url }}" alt="Hybrid AI">
+            <img src="{{ '/assets/img/research/safe_AI.png' | relative_url }}" alt="Uniting Learning and Rigor">
         </div>
     </div>
     <div class="research-card">
         <div class="card-text">
-            <h3>2. Real-Time Learning and Adaptation</h3>
-            <p>This research addresses how autonomous systems can adapt to unpredictable environments in real time. I explore training controllers as general-purpose <strong>Foundation Models</strong> that can be rapidly specialized for new tasks using transfer learning and meta-learning, enabling scalable and resilient autonomy.</p>
+            <h3>2. Adaptable and Scalable Autonomy</h3>
+            <p>To operate in the real world, autonomous systems must adapt to unpredictable and dynamic environments in real time. My goal is to move beyond static, pre-programmed behaviors by training controllers as general-purpose <strong>Foundation Models</strong>. By leveraging <strong>transfer learning</strong> and <strong>meta-learning</strong>, these models can be pre-trained on broad knowledge and then rapidly specialized for new tasks and scenarios, paving the way for truly scalable and resilient autonomy.</p>
         </div>
         <div class="card-image">
-            <img src="{{ '/assets/img/research/real_time_learning.png' | relative_url }}" alt="Real-Time Learning">
+            <img src="{{ '/assets/img/research/foundation_model.png' | relative_url }}" alt="Real-Time Learning">
         </div>
     </div>
     <div class="research-card">
         <div class="card-image">
-            <img src="{{ '/assets/img/research/robust_autonomy.png' | relative_url }}" alt="Robust Autonomy">
+            <img src="{{ '/assets/img/research/verifiable_AI.png' | relative_url }}" alt="Robust Autonomy">
         </div>
         <div class="card-text">
-            <h3>3. Verifiable and Robust Autonomy</h3>
-            <p>This thrust focuses on bridging the "sim-to-real" gap. I develop theoretical tools and practical runtime monitoring systems to quantify the risk introduced by AI components, generate real-time safety assurance envelopes, and ensure that autonomous systems behave reliably when deployed in the real world.</p>
+            <h3>3. Ensuring Real-World Trustworthiness</h3>
+            <p>A key challenge is ensuring that algorithms behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this "sim-to-real" gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>assurance envelopes</strong> that formally quantify risk in real time, providing the verifiable safety guarantees needed to deploy intelligent systems with confidence.</p>
         </div>
     </div>
 </div>
