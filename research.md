@@ -13,12 +13,25 @@ title: Research | Boris Benedikter, Ph.D.
 My research is driven by this fundamental question. Traditional control methods offer <strong>rigor</strong> but often rely on simplified models, while purely data-driven approaches capture <strong>real-world complexities</strong> but lack the formal assurances needed for safety-critical applications. My work aims to bridge these worlds by using rich, data-driven models to inform mathematically sound optimization and control frameworks, <strong>combining the adaptability of learning with the reliability of formal methods.</strong>
 
 <div class="jump-nav">
-    <a href="#convex-optimization" class="jump-btn">Convex Optimization</a>
-    <a href="#model-predictive-control" class="jump-btn">Model Predictive Control</a>
-    <a href="#stochastic-control" class="jump-btn">Stochastic Optimal Control</a>
-    <a href="#physics-informed-neural-networks" class="jump-btn">Physics-Informed Neural Networks</a>
-    <a href="#rl-enhanced-mpc" class="jump-btn">RL-Enhanced MPC</a>
-    <a href="#warm-starting" class="jump-btn">Warm-Starting Optimization</a>
+    <div class="jump-group">
+        <h4 class="jump-group-title">Past & Ongoing Research</h4>
+        <div class="jump-group-buttons">
+            <a href="#convex-optimization" class="jump-btn">Convex Optimization</a>
+            <a href="#model-predictive-control" class="jump-btn">Model Predictive Control</a>
+            <a href="#stochastic-control" class="jump-btn">Stochastic Optimal Control</a>
+            <a href="#physics-informed-neural-networks" class="jump-btn">Physics-Informed Neural Networks</a>
+            <a href="#rl-enhanced-mpc" class="jump-btn">RL-Enhanced MPC</a>
+            <a href="#warm-starting" class="jump-btn">Warm-Starting Optimization</a>
+        </div>
+    </div>
+    <div class="jump-group">
+        <h4 class="jump-group-title">Research Vision</h4>
+        <div class="jump-group-buttons">
+            <a href="#uniting-learning-and-rigor" class="jump-btn">Uniting Learning & Rigor</a>
+            <a href="#adaptable-and-scalable-autonomy" class="jump-btn">Adaptable & Scalable Autonomy</a>
+            <a href="#ensuring-real-world-trustworthiness" class="jump-btn">Ensuring Real-World Trustworthiness</a>
+        </div>
+    </div>
 </div>
 
 
@@ -90,16 +103,16 @@ My research is driven by this fundamental question. Traditional control methods 
 My research is driven by a long-term vision to create the scientific and algorithmic foundations for <strong>trustworthy autonomous systems</strong>. This requires a unified framework that addresses three core challenges at the intersection of control theory, optimization, and machine learning.
 
 <div class="research-grid">
-    <div class="research-card">
+    <div class="research-card" id="uniting-learning-and-rigor">
+        <div class="card-image">
+            <img src="{{ '/assets/img/research/safe_AI.png' | relative_url }}" alt="Uniting Learning and Rigor">
+        </div>
         <div class="card-text">
             <h3>1. Uniting Learning and Rigor</h3>
             <p>The central scientific challenge is to fuse the adaptability of AI with the formal guarantees of control theory so that learning improves performance without compromising verifiability. My vision is to create <strong>inherently trustworthy hybrid systems</strong> by design. This involves using high-capacity models to generate high-quality warm-starts for rigorous optimizers and designing AI that embeds physical laws and safety constraints directly into its structure, ensuring that our systems are both powerful and provably safe.</p>
         </div>
-        <div class="card-image">
-            <img src="{{ '/assets/img/research/safe_AI.png' | relative_url }}" alt="Uniting Learning and Rigor">
-        </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="adaptable-and-scalable-autonomy">
         <div class="card-text">
             <h3>2. Adaptable and Scalable Autonomy</h3>
             <p>To operate in the real world, autonomous systems must adapt to unpredictable and dynamic environments in real time. My goal is to move beyond static, pre-programmed behaviors by training controllers as general-purpose <strong>Foundation Models</strong>. By leveraging <strong>transfer learning</strong> and <strong>meta-learning</strong>, these models can be pre-trained on broad knowledge and then rapidly specialized for new tasks and scenarios, paving the way for truly scalable and resilient autonomy.</p>
@@ -108,7 +121,7 @@ My research is driven by a long-term vision to create the scientific and algorit
             <img src="{{ '/assets/img/research/foundation_model.png' | relative_url }}" alt="Real-Time Learning">
         </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="ensuring-real-world-trustworthiness">
         <div class="card-image">
             <img src="{{ '/assets/img/research/verifiable_AI.png' | relative_url }}" alt="Robust Autonomy">
         </div>
