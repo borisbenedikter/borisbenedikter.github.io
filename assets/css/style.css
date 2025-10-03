@@ -236,6 +236,7 @@ footer a {
 }
 
 .research-card {
+    position: relative;
     display: flex; /* Arranges items side-by-side */
     align-items: center; /* Vertically centers the text and image */
     gap: 30px; /* Adjusts space between text and image */
@@ -251,8 +252,15 @@ footer a {
 }
 
 .card-image {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     flex-basis: 350px; /* Sets a fixed width for the image container */
     flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.card-image:hover img {
+    transform: scale(2); /* Scales the image up */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+    z-index: 10; /* Ensures the image appears above other elements */
 }
 
 .card-image img {
@@ -339,4 +347,41 @@ footer a {
 }
 .timeline .institution {
     font-style: italic;
+}
+
+/* --- Smooth Scrolling --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Jump Navigation Buttons --- */
+.jump-nav {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap onto the next line */
+    justify-content: center; /* Centers the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.jump-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px; /* Creates the pill shape */
+    color: var(--secondary-color);
+    font-family: var(--header-font);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.jump-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    transform: translateY(-2px); /* Lifts the button slightly */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }

@@ -10,11 +10,20 @@ title: Research | Boris Benedikter, Ph.D.
     <blockquote>"How can we make autonomy safe, reliable, and worthy of our trust?"</blockquote>
 </section>
 
-My research is driven by this fundamental question. Traditional control methods offer rigor but often rely on simplified models, while purely data-driven approaches lack the formal assurances needed for safety-critical applications. My work aims to bridge these worlds by using rich, data-driven models to inform mathematically sound optimization and control frameworks, combining the adaptability of learning with the reliability of formal methods.
+My research is driven by this fundamental question. Traditional control methods offer <strong>rigor</strong> but often rely on simplified models, while purely data-driven approaches capture <strong>real-world complexities</strong> but lack the formal assurances needed for safety-critical applications. My work aims to bridge these worlds by using rich, data-driven models to inform mathematically sound optimization and control frameworks, <strong>combining the adaptability of learning with the reliability of formal methods.</strong>
+
+<div class="jump-nav">
+    <a href="#convex-optimization" class="jump-btn">Convex Optimization</a>
+    <a href="#model-predictive-control" class="jump-btn">Model Predictive Control</a>
+    <a href="#stochastic-control" class="jump-btn">Stochastic Optimal Control</a>
+    <a href="#physics-informed-neural-networks" class="jump-btn">Physics-Informed Neural Networks</a>
+    <a href="#rl-enhanced-mpc" class="jump-btn">RL-Enhanced MPC</a>
+</div>
+
 
 ## Past & Current Research
 <div class="research-grid">
-    <div class="research-card">
+    <div class="research-card" id="convex-optimization">
         <div class="card-text">
             <h3>Convex Optimization</h3>
             <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear control problems. By reformulating them into convex subproblems, using techniques like <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
@@ -24,7 +33,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <img src="{{ '/assets/img/research/convex.png' | relative_url }}" alt="Convex Optimization">
         </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="model-predictive-control">
         <div class="card-image">
             <img src="{{ '/assets/img/research/mpc.png' | relative_url }}" alt="Model Predictive Control">
         </div>
@@ -34,7 +43,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <p><strong>Keywords:</strong> Real-Time Optimization, Guidance & Control.</p>
         </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="stochastic-control">
         <div class="card-text">
             <h3>Stochastic Optimal Control</h3>
             <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>. This framework moves beyond deterministic planning to simultaneously optimize a nominal trajectory and a robust feedback policy, effectively steering the system's probability distribution from start to finish. My key contribution is a <strong>lossless convex reformulation</strong> of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
@@ -44,7 +53,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <img src="{{ '/assets/img/research/covariance_control.png' | relative_url }}" alt="Covariance Control">
         </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="physics-informed-neural-networks">
         <div class="card-image">
             <img src="{{ '/assets/img/research/pinn.png' | relative_url }}" alt="Physics-Informed Neural Networks">
         </div>
@@ -54,7 +63,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Data-Driven Methods.</p>
         </div>
     </div>
-    <div class="research-card">
+    <div class="research-card" id="rl-enhanced-mpc">
         <div class="card-text">
             <h3>RL-Enhanced MPC</h3>
             <p>To combine the constraint-awareness and interpretability of <strong>MPC</strong> and the robustness and adaptability of <strong>Reinforcement Learning (RL)</strong>, I co-developed RL-Enhanced MPC (RLE-MPC). The RL agent learns small, corrective adjustments to the MPC's cost function in a perturbed simulation environment. The combined controller shows increased <strong>robustness</strong> to uncertainties than standalone MPC, while showing improved <strong>generalization</strong> to unseen scenarios compared to standalone RL, achieving overall superior performance.</p>
