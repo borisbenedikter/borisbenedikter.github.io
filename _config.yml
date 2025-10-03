@@ -9,6 +9,7 @@ plugins:
 
 scholar:
   # style: apa
+  # style: ieee
   style: "_bibliography/apa-custom.csl"
   locale: en
   bibliography_template: "{{ reference | replace_first: 'Benedikter, B.', '<b>Benedikter, B.</b>' }}"

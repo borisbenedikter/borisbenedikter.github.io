@@ -268,6 +268,9 @@
       <key macro="author"/>
       <key macro="issued-year"/>
     </sort>
+    <!-- <layout prefix="[" suffix="]" delimiter=",">
+      <text variable="citation-number"/>
+    </layout> -->
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <text macro="author-short"/>
@@ -286,11 +289,16 @@
     </sort>
     <layout>
       <group suffix=".">
+        <!-- Author (Year) -->
         <group delimiter=" ">
           <text macro="author"/>
           <text macro="issued-year-only" prefix="(" suffix=")"/>
         </group>
+
+        <!-- Title -->
         <text macro="title" prefix=" "/>
+
+        <!-- Secondary contributors (editors, translators) -->
         <group delimiter="">
           <group prefix=". " delimiter=" ">
             <group delimiter=", ">
@@ -301,11 +309,14 @@
             <text macro="locators"/>
           </group>
         </group>
+
+        <!-- Note -->
         <choose>
           <if variable="note">
             <text variable="note" prefix=" (" suffix=")" font-style="italic"/>
           </if>
         </choose>
+
       </group>
       <text macro="access" prefix=" "/>
     </layout>

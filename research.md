@@ -42,6 +42,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Convex Optimization</h3>
             <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear control problems. By reformulating them into convex subproblems, using techniques like <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
             <p><strong>Keywords:</strong> Lossless Convexification, Sequential Convex Programming (SCP).</p>
+            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G005376" target="_blank" rel="noopener">Benedikter et al. (2021)</a>, <a href="https://doi.org/10.2514/1.A35194" target="_blank" rel="noopener">Benedikter et al. (2022)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2021convex benedikter2022convexjournal %}</p> -->
         </div>
         <div class="card-image">
             <img src="{{ '/assets/img/research/convex.png' | relative_url }}" alt="Convex Optimization">
@@ -55,6 +57,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Model Predictive Control</h3>
             <p>I have integrated these fast optimization methods into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful <strong>real-time guidance strategy</strong> that adapts to live conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous <strong>rocket guidance</strong> and <strong>planetary landing</strong>.</p>
             <p><strong>Keywords:</strong> Real-Time Optimization, Guidance & Control.</p>
+            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/6.2020-4268" target="_blank" rel="noopener">Benedikter et al. (2020)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2020autonomous %}</p> -->
         </div>
     </div>
     <div class="research-card" id="stochastic-control">
@@ -62,6 +66,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Stochastic Optimal Control</h3>
             <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>. This framework moves beyond deterministic planning to simultaneously optimize a nominal trajectory and a robust feedback policy, effectively steering the system's probability distribution from start to finish. My key contribution is a <strong>lossless convex reformulation</strong> of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
             <p><strong>Keywords:</strong> Covariance Control, Chance Constraints, Stochastic Programming.</p>
+            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G006806" target="_blank" rel="noopener">Benedikter et al. (2022)</a>, <a href="https://doi.org/10.3390/app151910469" target="_blank" rel="noopener">Garzelli et al. (2025)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2022covariancejournal  garzelli2025stochastic %}</p> -->
         </div>
         <div class="card-image">
             <img src="{{ '/assets/img/research/covariance_control.png' | relative_url }}" alt="Covariance Control">
@@ -75,6 +81,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Physics-Informed Neural Networks (PINNs)</h3>
             <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions are not only data-driven but also physically consistent and optimal.</p>
             <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Data-Driven Methods.</p>
+            <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener">D'Ambrosio et al. (2025)</a>, <a href="https://www.researchgate.net/publication/388421123_Physics-Informed_Machine_Learning_for_Attitude_Estimation_from_Light_Curves" target="_blank" rel="noopener">Benedikter et al. (2025)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite dambrosio2025physicsjournal benedikter2025physics %}</p> -->
         </div>
     </div>
     <div class="research-card" id="rl-enhanced-mpc">
@@ -82,6 +90,8 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>RL-Enhanced MPC</h3>
             <p>To combine the constraint-awareness and interpretability of <strong>MPC</strong> and the robustness and adaptability of <strong>Reinforcement Learning (RL)</strong>, I co-developed RL-Enhanced MPC (RLE-MPC). The RL agent learns small, corrective adjustments to the MPC's cost function in a perturbed simulation environment. The combined controller shows increased <strong>robustness</strong> to uncertainties than standalone MPC, while showing improved <strong>generalization</strong> to unseen scenarios compared to standalone RL, achieving overall superior performance.</p>
             <p><strong>Keywords:</strong> Reinforcement Learning, Model Predictive Control, Robust Control, Real-Time Guidance.</p>
+            <p><strong>Selected Publications:</strong> <a href="https://www.researchgate.net/publication/396009163_Reinforcement_Learning_Enhanced_Model_Predictive_Control_for_Autonomous_Planetary_Landing" target="_blank" rel="noopener">Federici et al. (2025)</a></p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite federici2025reinforcement %}</p> -->
         </div>
         <div class="card-image">
             <img src="{{ '/assets/img/research/rl-mpc.png' | relative_url }}" alt="RL-Enhanced MPC">
@@ -95,6 +105,7 @@ My research is driven by this fundamental question. Traditional control methods 
             <h3>Warm-Starting Optimization with Learning</h3>
             <p>I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate a <strong>high-quality initial guess</strong>, or "warm start," for a rigorous, optimization-based algorithm, dramatically reducing the convergence time of the formal solver.</p>
             <p><strong>Keywords:</strong> Imitation Learning, Warm Starting, Real-Time Optimization.</p>
+            <!-- <p><strong>Selected Publications:</strong> {% cite federicideep2021 %}</p> -->
         </div>
     </div>
 </div>
@@ -131,5 +142,11 @@ My research is driven by a long-term vision to create the scientific and algorit
         </div>
     </div>
 </div>
+
+<!-- ## Selected Publications
+The complete list of my publications can be found on the [Publications](./publications) page.
+<ul class="pub-list">
+    {% bibliography --cited %}
+</ul> -->
 
 </div>
