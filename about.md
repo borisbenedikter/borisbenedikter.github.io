@@ -12,7 +12,7 @@ I also hold an affiliation with the [Space Safety, Security, and Sustainability 
 
 My research focuses on developing algorithms that make autonomous systems safe, reliable, and worthy of our trust. I tackle this challenge by working at the intersection of **control theory**, **optimization**, and **machine learning**, combining the adaptability of learning with the reliability of formal methods.
 
-I received my Ph.D. in Aeronautical and Space Engineering from Sapienza University of Rome in 2022. My goal is to advance the science of autonomy and enable intelligent systems to operate safely and effectively in real-world environments, with applications spanning robotics, aerospace, and transportation.
+I received my Ph.D. in Aeronautical and Space Engineering from Sapienza University of Rome in 2022. My goal is to advance the science of autonomy and enable intelligent systems to operate safely and effectively in real-world environments, with applications spanning **aerospace**, **robotics**, and **transportation**.
 
 
 <div class="grid-container">

@@ -3,3 +3,29 @@ title: "Boris Benedikter, Ph.D."
 subtitle: "Postdoctoral Scholar in Optimal Control & AI"
 author: "Boris Benedikter"
 description: "Developing safe, reliable, and verifiable autonomous systems."
+
+plugins:
+  - jekyll-scholar
+
+scholar:
+  # style: apa
+  style: "_bibliography/apa-custom.csl"
+  locale: en
+  bibliography_template: "{{ reference | replace_first: 'Benedikter, B.', '<b>Benedikter, B.</b>' }}"
+
+  sort_by: [year, month]
+  order: descending
+
+  highlight_authors: ['Benedikter, B.', 'Benedikter, Boris', 'B. Benedikter', 'Boris Benedikter']
+
+  source: ./_bibliography/
+  bibliography: references.bib
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
