@@ -7,7 +7,7 @@ title: Research | Boris Benedikter, Ph.D.
 # Research
 
 <section class="research-vision">
-    <blockquote>"How can we make autonomy safe, reliable, and worthy of our trust?"</blockquote>
+    <blockquote>"How can we make autonomy <strong>safe</strong>, <strong>reliable</strong>, and worthy of our <strong>trust</strong>?"</blockquote>
 </section>
 
 My research is driven by this fundamental question. Traditional control methods offer <strong>rigor</strong> but often rely on simplified models, while purely data-driven approaches capture <strong>real-world complexities</strong> but lack the formal assurances needed for safety-critical applications. My work aims to bridge these worlds by using rich, data-driven models to inform mathematically sound optimization and control frameworks, <strong>combining the adaptability of learning with the reliability of formal methods.</strong>
@@ -38,13 +38,14 @@ My research is driven by this fundamental question. Traditional control methods 
 
 ## Past & Ongoing Research
 
-My research contributions focus on developing computationally efficient optimization techniques, advanced stochastic and robust control frameworks, and integrated physics-informed and learning-based methods to enhance reliability, adaptability, and real-time feasibility. These contributions span from rocket guidance and planetary landing to space situational awareness and orbit determination.
+My research contributions focus on developing computationally efficient <strong>optimization techniques</strong>, advanced <strong>stochastic control</strong> frameworks, and integrated <strong>learning-based</strong> methods to enhance adaptability and real-time feasibility. 
+The applications span from <strong>aerospace guidance</strong> to <strong>space situational awareness</strong> and <strong>orbit determination</strong>.
 
 <div class="research-grid">
     <div class="research-card" id="convex-optimization">
         <div class="card-text">
             <h3>Convex Optimization</h3>
-            <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear control problems. By reformulating them into convex subproblems, using techniques like <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
+            <p>A core theme of my work is developing computationally efficient methods to solve highly nonlinear optimal control problems. By reformulating them into convex subproblems, using techniques like <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, I achieved orders-of-magnitude speedups and reduced sensitivity to initialization compared to traditional nonlinear programming methods, enabling fast and reliable real-time planning.</p>
             <p><strong>Keywords:</strong> Lossless Convexification, Sequential Convex Programming (SCP).</p>
             <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G005376" target="_blank" rel="noopener">Benedikter et al. (2021)</a>, <a href="https://doi.org/10.2514/1.A35194" target="_blank" rel="noopener">Benedikter et al. (2022)</a></p>
             <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2021convex benedikter2022convexjournal %}</p> -->
@@ -59,7 +60,7 @@ My research contributions focus on developing computationally efficient optimiza
         </div>
         <div class="card-text">
             <h3>Model Predictive Control</h3>
-            <p>I have integrated these fast optimization methods into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful <strong>real-time guidance strategy</strong> that adapts to live conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous <strong>rocket guidance</strong> and <strong>planetary landing</strong>.</p>
+            <p>I have integrated convex optimization into Model Predictive Control (MPC) frameworks, where the convexified problem is solved repeatedly in a receding-horizon fashion based on the system's measured state. This creates a powerful <strong>real-time guidance</strong> strategy that adapts to dynamic conditions. Through extensive Monte Carlo simulations under perturbed conditions, this approach has demonstrated reliable convergence and real-time feasibility for high-stakes applications, including autonomous <strong>rocket guidance</strong> and <strong>planetary landing</strong>.</p>
             <p><strong>Keywords:</strong> Real-Time Optimization, Guidance & Control.</p>
             <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/6.2020-4268" target="_blank" rel="noopener">Benedikter et al. (2020)</a>, <a href="https://arxiv.org/abs/2212.06518" target="_blank" rel="noopener">Benedikter et al. (2021)</a></p>
             <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2020autonomous benedikter2021autonomous %}</p> -->
@@ -68,8 +69,8 @@ My research contributions focus on developing computationally efficient optimiza
     <div class="research-card" id="stochastic-control">
         <div class="card-text">
             <h3>Stochastic Optimal Control</h3>
-            <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>. This framework moves beyond deterministic planning to simultaneously optimize a nominal trajectory and a robust feedback policy, effectively steering the system's probability distribution from start to finish. My key contribution is a <strong>lossless convex reformulation</strong> of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
-            <p><strong>Keywords:</strong> Covariance Control, Chance Constraints, Stochastic Programming.</p>
+            <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>. This framework moves beyond deterministic planning: it simultaneously optimizes a nominal trajectory and a robust feedback control policy, effectively steering the system's probability distribution—not just its mean state—from start to finish. My key contribution is a <strong>lossless convex reformulation</strong> of the inherently nonconvex CC problem, enabling low-complexity solutions that provide rigorous probabilistic safety guarantees for systems operating in uncertain environments.</p>
+            <p><strong>Keywords:</strong> Covariance Control, Chance Constraints, Stochastic Programming, Uncertainty.</p>
             <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G006806" target="_blank" rel="noopener">Benedikter et al. (2022)</a>, <a href="https://doi.org/10.3390/app151910469" target="_blank" rel="noopener">Garzelli et al. (2025)</a></p>
             <!-- <p><strong>Selected Publications:</strong> {% cite benedikter2022covariancejournal  garzelli2025stochastic %}</p> -->
         </div>
@@ -83,8 +84,8 @@ My research contributions focus on developing computationally efficient optimiza
         </div>
         <div class="card-text">
             <h3>Physics-Informed Neural Networks (PINNs)</h3>
-            <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions are not only data-driven but also physically consistent and optimal. I also used PINNs to for attitude estimation from <strong>light curves</strong> by embedding the governing <strong>kinematic equations</strong> into the loss function.</p>
-            <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Data-Driven Methods.</p>
+            <p>To address the "black box" problem in machine learning, my research leverages <strong>Physics-Informed NNs</strong>, which incorporate physical laws directly into the neural network's training process. I worked on <strong>Pontryagin Neural Networks (PoNNs)</strong>, a novel framework that embeds the <strong>Pontryagin Maximum Principle</strong> into a PINN, ensuring that the learned solutions satisfy the first-order optimality conditions. I also used PINNs for attitude estimation from <strong>light curves</strong> by embedding the governing <strong>kinematic equations</strong> into the loss function to ensure physical consistency.</p>
+            <p><strong>Keywords:</strong> Physics-Informed Machine Learning, Pontryagin Maximum Principle, Optimal Control, Indirect Methods.</p>
             <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener">D'Ambrosio et al. (2025)</a>, <a href="https://www.researchgate.net/publication/388421123_Physics-Informed_Machine_Learning_for_Attitude_Estimation_from_Light_Curves" target="_blank" rel="noopener">Benedikter et al. (2025)</a></p>
             <!-- <p><strong>Selected Publications:</strong> {% cite dambrosio2025physicsjournal benedikter2025physics %}</p> -->
         </div>
@@ -107,7 +108,7 @@ My research contributions focus on developing computationally efficient optimiza
         </div>
         <div class="card-text">
             <h3>Warm-Starting Optimization with Learning</h3>
-            <p>I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate a <strong>high-quality initial guess</strong>, or "warm start," for a rigorous, optimization-based algorithm, dramatically reducing the convergence time of the formal solver.</p>
+            <p>I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate a <strong>high-quality initial guess</strong>, or "warm start," for a rigorous, optimization-based algorithm, dramatically reducing the convergence time of the formal solver, while retaining its safety and performance guarantees.</p>
             <p><strong>Keywords:</strong> Imitation Learning, Warm Starting, Real-Time Optimization.</p>
             <!-- <p><strong>Selected Publications:</strong> {% cite federicideep2021 %}</p> -->
         </div>
@@ -115,8 +116,8 @@ My research contributions focus on developing computationally efficient optimiza
     <div class="research-card" id="orbit-determination">
         <div class="card-text">
             <h3>Orbit Determination</h3>
-            <p>I developed <strong>TRACER</strong> (Tracking, Recognition, Analysis for Celestial Ephemeris Retrieval), a comprehensive software tool designed for space situational awareness. Integrated with the Space4 Center's telescope network, TRACER processes observational data to perform initial <strong>orbit determination</strong>, enabling the long-term <strong>tracking</strong> and <strong>cataloging</strong> of resident space objects.</p>
-            <p><strong>Keywords:</strong> Orbit Determination, Space Object Tracking, Cataloging, Space Situational Awareness.</p>
+            <p>I developed <strong>TRACER</strong> (Tracking, Recognition, Analysis for Celestial Ephemeris Retrieval), a comprehensive software tool designed for space situational awareness. Integrated with the Space4 Center's telescope network, TRACER processes observational data to perform <strong>initial orbit determination</strong>, enabling the long-term <strong>tracking</strong> and <strong>cataloging</strong> of resident space objects.</p>
+            <p><strong>Keywords:</strong> Estimation, Space Object Tracking, Cataloging, Space Situational Awareness.</p>
         </div>
         <div class="card-image">
             <img src="{{ '/assets/img/research/orbit_determination.png' | relative_url }}" alt="Orbit Determination">
@@ -152,7 +153,7 @@ My research is driven by a long-term vision to create the scientific and algorit
         </div>
         <div class="card-text">
             <h3>3. Ensuring Real-World Trustworthiness</h3>
-            <p>A key challenge is ensuring that algorithms behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this "sim-to-real" gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>assurance envelopes</strong> that formally quantify risk in real time, providing the verifiable safety guarantees needed to deploy intelligent systems with confidence.</p>
+            <p>A key challenge is ensuring that AI components behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this <strong>"sim-to-real"</strong> gap. This involves developing <strong>runtime monitoring</strong> systems and <strong>assurance envelopes</strong> that formally quantify risk in real time, enabling proactive safety measures and verifiable guarantees for deployed systems.</p>
         </div>
     </div>
 </div>
