@@ -388,8 +388,8 @@ footer a {
     transition: transform 0.3s ease-in-out;
 }
 
-.artifact-card img:hover,
-.artifact-card video:hover {
+.artifact-card:not(.no-zoom) img:hover,
+.artifact-card:not(.no-zoom) video:hover {
     transform: scale(2.0); /* Zooms in the image/video on hover */
 }
 

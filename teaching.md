@@ -11,7 +11,7 @@ title: Teaching | Boris Benedikter, Ph.D.
 </section>
 
 Besides my research activities, I am deeply committed to teaching and mentoring the next generation of engineers and scientists. 
-My approach is grounded in formal pedagogical training I received through the year-long [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway), where I developed a reflective, evidence-based teaching practice. 
+My approach is grounded in formal pedagogical training I received through the year-long [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway), where I developed a **reflective**, **evidence-based teaching** practice. 
 I strive to create **inclusive** and **engaging** learning environments by connecting complex topics to real-world applications.
 This philosophy has guided my experience co-teaching a graduate-level course in robotic systems and my ongoing mentorship of undergraduate and doctoral students.
 
@@ -20,22 +20,22 @@ This philosophy has guided my experience co-teaching a graduate-level course in 
 My teaching philosophy is built on a commitment to creating an inclusive and effective learning environment. It is guided by the following core principles:
 
 <div class="teaching-artifacts-grid grid-2x2">
-  <div class="artifact-card">
+  <div class="artifact-card no-zoom">
   <img src="{{ '/assets/img/teaching/reflective_prof.png' | relative_url }}" alt="Reflective teaching">
   <h4>Reflective & Iterative Practice</h4>
     <p>I approach teaching as I do research: as an iterative process of setting goals, testing ideas, and using feedback to improve. This reflective practice, informed by the <strong>"teaching-as-research"</strong> model, allows me to continually refine my methods.</p>
   </div>
-  <div class="artifact-card">
+  <div class="artifact-card no-zoom">
   <img src="{{ '/assets/img/teaching/inclusive_teaching.png' | relative_url }}" alt="Inclusive classroom">
   <h4>Inclusive & Adaptive Teaching</h4>
     <p>Recognizing that <strong>students learn in diverse ways</strong>, I adapt my strategies to create an inclusive environment where every student feels valued. I view student diversity as a resource that enriches the classroom, a principle shaped by my training in evidence-based and inclusive pedagogy.</p>
   </div>
-  <div class="artifact-card">
+  <div class="artifact-card no-zoom">
     <img src="{{ '/assets/img/teaching/real_world_examples_teaching.png' | relative_url }}" alt="Motivating students">
   <h4>Motivating Through Real-World Connections</h4>
-    <p>I believe that motivation is key to deep learning. I strive to <strong>spark curiosity</strong> by connecting course material to meaningful, real-world applications, from NASA's Mars rovers to everyday robotics, to show students the relevance and impact of their work.</p>
+    <p>Motivation is key to deep learning. I strive to <strong>spark curiosity</strong> by connecting course material to meaningful, real-world applications, from NASA's Mars rovers to everyday robotics, to show students the relevance and impact of their work.</p>
   </div>
-  <div class="artifact-card">
+  <div class="artifact-card no-zoom">
     <img src="{{ '/assets/img/teaching/hands_on_learning.png' | relative_url }}" alt="Active learning">
   <h4>Active & Hands-On Learning</h4>
     <p>True understanding comes from doing. I design courses with a strong emphasis on <strong>active learning</strong>, using hands-on exercises, assignments with opportunities for revision, and open-ended projects that challenge students to apply their knowledge, problem-solve, and take ownership of their learning.</p>
@@ -144,16 +144,22 @@ This feedback reinforces my goal of increasing **student engagement** and provid
 
 ## Mentoring
 
-I am passionate about mentoring students at all levels, fostering a collaborative environment where they can develop into independent and impactful researchers.
+Mentoring is not just a responsibility alongside research; it is a **commitment to a student's learning, growth, and future**. My goal is to foster a collaborative environment where students can develop into independent and impactful researchers.
+
+### My Approach to Mentoring
+
+My approach to mentoring mirrors my teaching philosophy: I see it as a shift from delivering content to **guiding and supporting**. 
+I aim to create a space where students feel empowered to tackle open-ended challenges, reason through design decisions, and learn from an iterative process of inquiry and reflection. 
+By providing consistent feedback and asking probing questions, I help students build not only their technical skills but also their confidence and creativity.
 
 #### Doctoral Students
-* **A. Garzelli** (2023–Present): Research on stochastic optimal control for spacecraft and UAV guidance.
-* **L. Ramponi** (2025–Present): Research on machine learning for space situational awareness.
+* A. Garzelli (2023–Present): Research on **stochastic optimal control** for spacecraft rendezvous and UAV guidance.
+* L. Ramponi (2025–Present): Research on **DeepONets** and **Transformers** for space situational awareness.
 
 #### Undergraduate & M.Sc. Theses Co-Advised
-* F. Gettatelli, M.Sc. (2023) 
-* A. Capelle Domínguez, B.Sc. (2023) 
-* I. Llansó y Pérez, B.Sc. (2022) 
-* A. Vittori, B.Sc. (2021) 
+* F. Gettatelli (2023), **"Convex Optimization of Ascent and Powered Descent of a Reusable Launch Vehicle"**, M.Sc. in Space and Astronautical Engineering, Sapienza University of Rome
+* A. Capelle Domínguez (2023), **"Convex Optimization of Powered Guided Landing on Mars"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
+* I. Llansó y Pérez (2022), **"Convex Optimization of ΔV-EGA Interplanetary Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
+* A. Vittori (2021), **"Convex Optimization of Mars Descent Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
 
 </div>
