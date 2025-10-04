@@ -520,3 +520,68 @@ html {
     color: var(--secondary-color);
     background-color: #fcfcfc;
 }
+
+/* --- Contact Page Styles --- */
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Left column is smaller, form is larger */
+    gap: 50px;
+    margin-top: 3rem;
+}
+
+.contact-details h3 {
+    margin-top: 0;
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-links li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: var(--header-font);
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contact-form button {
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Make it a single column on smaller screens */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
