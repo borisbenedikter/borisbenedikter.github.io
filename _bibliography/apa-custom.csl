@@ -31,7 +31,7 @@
     <choose>
       <if type="chapter" match="any">
         <names variable="container-author" delimiter=", " suffix=", ">
-          <name and="symbol" initialize-with=". " delimiter=", "/>
+          <name and="text" initialize-with=". " delimiter=", "/>
           <label form="short" prefix=" (" text-case="title" suffix=")"/>
           <substitute>
             <names variable="editor"/>
@@ -45,7 +45,7 @@
     <choose>
       <if type="chapter" match="none">
         <names variable="editor" delimiter=", " prefix=" (" suffix=")">
-          <name and="symbol" initialize-with=". " delimiter=", "/>
+          <name and="text" initialize-with=". " delimiter=", "/>
           <label form="short" prefix=", " text-case="title"/>
         </names>
       </if>
@@ -53,7 +53,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="symbol" delimiter-precedes-last="always" initialize-with=". " name-as-sort-order="all"/>
+      <name and="text" delimiter-precedes-last="always" initialize-with=". " name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")" text-case="capitalize-first"/>
       <substitute>
         <names variable="editor"/>
@@ -72,7 +72,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name form="short" and="symbol" delimiter=", " initialize-with=". "/>
+      <name form="short" and="text" delimiter=", " initialize-with=". "/>
       <substitute>
         <names variable="editor"/>
         <names variable="translator"/>
@@ -228,11 +228,15 @@
     <choose>
       <if type="article-journal article-magazine" match="any">
         <group prefix=", " delimiter="">
-          <group suffix=", ">
+          <group>
             <text variable="volume" font-style="italic"/>
             <text variable="issue" prefix="(" suffix=")"/>
           </group>
-          <text variable="page"/>
+          <choose>
+            <if variable="page">
+              <text variable="page" prefix=", "/>
+            </if>
+          </choose>
         </group>
       </if>
       <else-if type="book graphic manuscript motion_picture report song speech thesis" match="any">
