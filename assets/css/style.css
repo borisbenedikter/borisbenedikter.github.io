@@ -351,6 +351,76 @@ footer a {
     font-style: italic;
 }
 
+.teaching-artifacts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 2.5rem 0;
+}
+
+.teaching-artifacts-grid.grid-2x2 {
+    grid-template-columns: 1fr 1fr; /* Specifically for 2x2 grid */
+}
+
+.artifact-card {
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    background-color: #fff;
+    /* overflow: hidden; */
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.artifact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    z-index: 10; /* Ensures the card appears above other elements */
+}
+
+.artifact-card img,
+.artifact-card video {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--light-gray);
+    transition: transform 0.3s ease-in-out;
+}
+
+.artifact-card img:hover,
+.artifact-card video:hover {
+    transform: scale(2.0); /* Zooms in the image/video on hover */
+}
+
+.artifact-card h4 {
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    color: var(--primary-color);
+}
+
+.artifact-card p {
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Styling for blockquotes (student feedback) */
+blockquote {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: #555;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 /* --- Smooth Scrolling --- */
 html {
     scroll-behavior: smooth;
@@ -412,4 +482,41 @@ html {
     color: var(--white);
     transform: translateY(-2px); /* Lifts the button slightly */
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* --- Document Card Style --- */
+.document-card {
+    max-width: 500px;
+    margin: 2rem auto; /* Centers the card horizontally */
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    overflow: hidden; /* Ensures the image corners are rounded */
+}
+
+.document-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+.document-card a {
+    display: block;
+    text-decoration: none;
+}
+
+.document-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.document-card span {
+    display: block;
+    padding: 1rem;
+    font-family: var(--header-font);
+    font-weight: 600;
+    color: var(--secondary-color);
+    background-color: #fcfcfc;
 }
