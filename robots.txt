@@ -1,1 +1,6 @@
+# Allow all web crawlers full access to the site
+User-agent: *
+Disallow:
+
+# Provide the location of the sitemap
 Sitemap: https://www.borisbenedikter.com/sitemap.xml
