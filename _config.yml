@@ -6,6 +6,9 @@ description: "Developing safe, reliable, and verifiable autonomous systems."
 
 plugins:
   - jekyll-scholar
+  - jekyll-sitemap
+
+url: "https://www.borisbenedikter.com"
 
 scholar:
   # style: apa
