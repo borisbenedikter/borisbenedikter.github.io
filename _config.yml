@@ -2,7 +2,7 @@
 title: "Boris Benedikter, Ph.D."
 subtitle: "Postdoctoral Scholar in Optimal Control & AI"
 author: "Boris Benedikter"
-description: "Developing safe, reliable, and verifiable autonomous systems."
+description: "Personal academic website of Boris Benedikter, a postdoctoral researcher in aerospace engineering focusing on autonomous systems, optimal control, and machine learning."
 
 plugins:
   - jekyll-scholar
