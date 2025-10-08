@@ -579,9 +579,58 @@ html {
     border-color: var(--secondary-color);
 }
 
-/* Make it a single column on smaller screens */
+/* --- Responsive Styles for Mobile --- */
 @media (max-width: 768px) {
-    .contact-grid {
-        grid-template-columns: 1fr;
+
+    /* --- General Layout --- */
+    body {
+        line-height: 1.6; /* Improve readability on small screens */
     }
+
+    /* --- Header --- */
+    header .container {
+        flex-direction: column; /* Stack the logo and nav vertically */
+        gap: 20px;
+    }
+
+    /* NEW: Stack navigation links on mobile */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* --- Homepage --- */
+    .hero {
+        flex-direction: column-reverse; /* Stack text above the image */
+        text-align: center;
+    }
+
+    /* NEW: Stack publication stats on mobile */
+    .pub-stats {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* --- Two-Column Grids --- */
+    /* This targets all your 2-column layouts: about, teaching, contact, etc. */
+    .grid-container,
+    .contact-grid,
+    .teaching-artifacts-grid.grid-2x2 {
+        grid-template-columns: 1fr; /* Switch to a single column */
+    }
+
+    /* --- Research Card Layout --- */
+    /* Stack the image on top of the text in research cards */
+    .research-card {
+        flex-direction: column;
+        align-items: flex-start; /* Align text to the left */
+    }
+    
+    .card-image {
+        flex-basis: auto; /* Allow image width to be flexible */
+        width: 100%;     /* Make image full width of the card */
+        margin-bottom: 1rem;
+    }
+
 }
