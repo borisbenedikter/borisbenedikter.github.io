@@ -28,6 +28,7 @@ I am always open to discussing research, potential collaborations, or mentoring 
   </div>
   <div class="contact-form">
     <h3>Send me a message</h3>
+    <p class="form-note">Your message will be delivered directly to my email inbox.</p>
     <form action="https://formspree.io/f/xeorkypg" method="POST">
       <div class="form-group">
         <label for="name">Your Name:</label>
