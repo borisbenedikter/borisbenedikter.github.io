@@ -689,6 +689,15 @@ html {
         margin-bottom: 1rem;
     }
 
+    /* --- Contact Form Note --- */
+    .form-note {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: -0.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    }
+
     /* --- Navigation Menu --- */
     .main-nav {
         display: flex;
