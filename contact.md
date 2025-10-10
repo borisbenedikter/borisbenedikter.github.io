@@ -10,9 +10,6 @@ I am always open to discussing research, potential collaborations, or mentoring 
 
 <div class="contact-grid">
   <div class="contact-details">
-    <h3>Email</h3>
-    <p><a href="mailto:boris@arizona.edu">boris@arizona.edu</a></p>
-
     <h3>Office Address</h3>
     <p>
       Dept. of Systems & Industrial Engineering<br>
