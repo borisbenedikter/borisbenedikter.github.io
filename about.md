@@ -7,13 +7,11 @@ title: About | Boris Benedikter, Ph.D.
 
 # About Me
 
-I am a Postdoctoral Research Associate in the [Department of Systems and Industrial Engineering](https://sie.arizona.edu/) at the [University of Arizona](https://www.arizona.edu/).
-I also hold an affiliation with the [Space Safety, Security, and Sustainability (Space4) Center](https://space4.arizona.edu/) at the University of Arizona, whose mission is ensuring responsible, sustainable, and sustainable access to space for future generations.
+I am a **Postdoctoral Research Associate** in the [Department of Systems and Industrial Engineering](https://sie.arizona.edu/) at the [University of Arizona](https://www.arizona.edu/), and a member of the [Space Safety, Security, and Sustainability (Space4) Center](https://space4.arizona.edu/). My research lies at the intersection of **aerospace autonomy**, **optimal control theory**, and **machine learning**, where I develop algorithms that make intelligent systems **safe, reliable, and verifiable**.
 
-My research focuses on developing algorithms that make autonomous systems safe, reliable, and worthy of our trust. I tackle this challenge by working at the intersection of **control theory**, **optimization**, and **machine learning**, combining the adaptability of learning with the reliability of formal methods.
+I design methods that unify the **rigor of optimal control and convex optimization** with the **adaptability of AI** to enable autonomous spacecraft, aerial vehicles, and robotic systems to operate safely in uncertain and dynamic environments. Ultimately, my goal is to advance **trustworthy autonomy**, ensuring that next-generation aerospace systems can make intelligent decisions while satisfying stringent safety and mission requirements.
 
-I received my [Ph.D. in Aeronautical and Space Engineering](https://phd.uniroma1.it/web/AERONAUTICS-AND-SPACE-ENGINEERING_nD3556_EN.aspx) from [Sapienza University of Rome](https://www.uniroma1.it/en/pagina-strutturale/home) in 2022. My goal is to advance the science of autonomy and enable intelligent systems to operate safely and effectively in real-world environments, with applications spanning **aerospace**, **robotics**, and **transportation**.
-
+I received my [Ph.D. in Aeronautical and Space Engineering](https://phd.uniroma1.it/web/AERONAUTICS-AND-SPACE-ENGINEERING_nD3556_EN.aspx) from [Sapienza University of Rome](https://www.uniroma1.it/en/pagina-strutturale/home) in 2022. My work bridges theory and application, with domains spanning **spacecraft guidance and control**, **space domain awareness**, **UAV navigation**, and **robotic systems**, all unified by a focus on rigorous, data-informed decision making.
 
 <div class="grid-container">
     <div>

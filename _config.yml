@@ -1,8 +1,8 @@
 # _config.yml
 title: "Boris Benedikter, Ph.D."
-subtitle: "Postdoctoral Scholar in Optimal Control & AI"
+subtitle: "Postdoctoral Scholar in Aerospace Autonomy and Optimal Control"
 author: "Boris Benedikter"
-description: "Personal academic website of Boris Benedikter, a postdoctoral researcher in aerospace engineering focusing on autonomous systems, optimal control, and machine learning."
+description: "Official website of Boris Benedikter, a postdoctoral researcher at the University of Arizona specializing in trustworthy aerospace autonomy, real-time guidance, optimal control, and machine learning. Explore my research, publications, and teaching philosophy."
 
 plugins:
   - jekyll-scholar
