@@ -11,7 +11,7 @@ title: Teaching | Boris Benedikter, Ph.D.
 </section>
 
 Besides my research activities, I am deeply committed to teaching and mentoring the next generation of engineers and scientists. 
-My approach is grounded in formal pedagogical training I received through the year-long [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway), where I developed a **reflective**, **evidence-based teaching** practice. 
+My approach is grounded in formal pedagogical training I received through the year-long [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway){:target="_blank" rel="noopener noreferrer"}, where I developed a **reflective**, **evidence-based teaching** practice.
 I strive to create **inclusive** and **engaging** learning environments by connecting complex topics to real-world applications.
 This philosophy has guided my experience co-teaching a graduate-level course in robotic systems and my ongoing mentorship of undergraduate and doctoral students.
 
@@ -38,7 +38,7 @@ My teaching philosophy is built on a commitment to creating an inclusive and eff
   <div class="artifact-card no-zoom">
     <img src="{{ '/assets/img/teaching/hands_on_learning.png' | relative_url }}" alt="Active learning">
   <h4>Active & Hands-On Learning</h4>
-    <p>True understanding comes from doing. I design courses with a strong emphasis on <strong>active learning</strong>, using hands-on exercises, assignments with opportunities for revision, and open-ended projects that challenge students to apply their knowledge, problem-solve, and take ownership of their learning.</p>
+    <p>True understanding comes from doing. I design courses with a strong emphasis on <strong>active learning</strong>, using hands-on exercises, assignments with opportunities for revision, and open-ended projects that support students to apply their knowledge, problem-solve, and take ownership of their learning.</p>
   </div>
 </div>
 
@@ -77,7 +77,7 @@ Below are examples of materials I developed for the "Robotic Systems" course, ea
 
 ## Teaching Mentor Voice
 
-The main instructor of the **"Robotic Systems"** course, **Prof. Fabio Curti**, observed my teaching during the co-teaching experience and wrote a letter summarizing his observations.
+The main instructor of the **"Robotic Systems"** course, **Prof. Fabio Curti**, observed my teaching and wrote a letter summarizing his observations.
 
 The letter highlights that we met regularly before and after each lecture to discuss the course content, the students' progress, and any challenges we encountered. It also emphasizes that I was able to **adapt my teaching** style to the needs of the students and that I provided **clear explanations**, **comprehensive materials**, and **fine-tuned exercises and assignments** to help students learn effectively.
 
@@ -92,7 +92,7 @@ The letter highlights that we met regularly before and after each lecture to dis
 
 ## Student Voices
 
-I administered an **anonymous survey** to gather feedback on the module. The responses highlighted the value of **clear explanations** and **hands-on learning**, and provided **constructive ideas** for future iterations.
+To evaluate the impact of my teaching, I collected **anonymous student feedback** after the ROS module. Their responses highlighted the value of **clear explanations** and **hands-on learning**, and provided **constructive ideas** for future iterations.
 
 > "Very good explanation of ROS from the very basic presentations, into more detailed examples. I enjoyed the small mini project Turtlesim as a basic project to learn hands on." 
 > <cite>— Graduate Student</cite>
@@ -146,17 +146,17 @@ This feedback reinforces my goal of increasing **student engagement** and provid
 
 Mentoring is not just a responsibility alongside research; it is a **commitment to a student's learning, growth, and future**. My goal is to foster a collaborative environment where students can develop into independent and impactful researchers.
 
-### My Approach to Mentoring
-
 My approach to mentoring mirrors my teaching philosophy: I see it as a shift from delivering content to **guiding and supporting**. 
-I aim to create a space where students feel empowered to tackle open-ended challenges, reason through design decisions, and learn from an iterative process of inquiry and reflection. 
+I aim to create a space where students feel empowered to tackle open-ended challenges, reason through design decisions, and learn through an iterative process of inquiry and reflection.
 By providing consistent feedback and asking probing questions, I help students build not only their technical skills but also their confidence and creativity.
 
 #### Doctoral Students
+
 * A. Garzelli (2023–Present): Research on **stochastic optimal control** for spacecraft rendezvous and UAV guidance.
 * L. Ramponi (2025–Present): Research on **DeepONets** and **Transformers** for space situational awareness.
 
 #### Undergraduate & M.Sc. Theses Co-Advised
+
 * F. Gettatelli (2023), **"Convex Optimization of Ascent and Powered Descent of a Reusable Launch Vehicle"**, M.Sc. in Space and Astronautical Engineering, Sapienza University of Rome
 * A. Capelle Domínguez (2023), **"Convex Optimization of Powered Guided Landing on Mars"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
 * I. Llansó y Pérez (2022), **"Convex Optimization of ΔV-EGA Interplanetary Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
