@@ -31,7 +31,7 @@
     <div class="container">
         <a href="/" class="logo-block">
             <span class="logo-title">Boris Benedikter, Ph.D.</span>
-            <span class="logo-subtitle">Postdoctoral Scholar in Aerospace Autonomy and Optimal Control</span>
+            <span class="logo-subtitle">Postdoc in Aerospace Autonomy, Optimal Control, and AI</span>
         </a>
 
         <!-- Hamburger menu for mobile -->
@@ -59,11 +59,11 @@
 
   <section class="research-vision">
   <blockquote>
-    "How do we build autonomous aerospace and robotic systems that are <strong>safe</strong>, <strong>certifiable</strong>, and worthy of our <strong>trust</strong>?"
+    "How do we build autonomous systems that are <strong>safe</strong>, <strong>certifiable</strong>, and worthy of our <strong>trust</strong>?"
   </blockquote>
 </section>
 
-  <p>My work unifies the <strong>rigor of optimal control and convex optimization</strong> with the <strong>adaptability of modern AI</strong> to design verifiable <strong>Guidance, Navigation, and Control (GNC)</strong> for spacecraft, UAVs, and robotic systems. Traditional control offers guarantees but relies on simplified models; purely data-driven approaches capture complexities but lack formal assurances. I bridge these worlds by using data-driven models to inform mathematically sound optimizers, <strong>combining learning with guarantees</strong> for operation in uncertain, dynamic, and resource-constrained environments.</p>
+  <p>My work unifies the <strong>rigor of optimal control and convex optimization</strong> with the <strong>adaptability of modern AI</strong> to design verifiable <strong>Guidance, Navigation, and Control (GNC)</strong> algorithms for spacecraft, rockets, UAVs, and robotic systems. Traditional control offers guarantees but relies on simplified models; purely data-driven approaches capture complexities but lack formal assurances. I bridge these worlds by using data-driven models to inform mathematically sound optimizers, <strong>combining learning with guarantees</strong> for operation in the uncertain, dynamic, and resource-constrained environments characteristic of aerospace applications.</p>
 
   <div class="jump-nav">
   <div class="jump-group">
@@ -96,8 +96,8 @@
   <div class="research-card" id="convex-optimization">
     <div class="card-text">
       <h3>Convex Optimization for Nonlinear GNC</h3>
-      <p>I reformulate hard, nonlinear optimal control problems into convex subproblems via <strong>Lossless Convexification</strong> and <strong>Sequential Convex Programming</strong>, delivering orders-of-magnitude speed-ups and improved reliability versus classical NLP, enabling <strong>onboard real-time planning</strong> for flight-critical tasks.</p>
-      <p><strong>Keywords:</strong> Lossless Convexification, Sequential Convex Programming (SCP), real-time guidance.</p>
+      <p>I reformulate hard, nonlinear optimal control problems into convex subproblems via <strong>lossless convexification</strong> and <strong>sequential convex programming</strong>, delivering orders-of-magnitude speed-ups and improved reliability versus classical NLP, enabling <strong>onboard real-time planning</strong> for safety- and mission-critical GNC tasks.</p>
+      <p><strong>Keywords:</strong> Lossless convexification, sequential convex programming, real-time guidance.</p>
       <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G005376" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2021)</a>, <a href="https://doi.org/10.2514/1.A35194" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2022)</a></p>
     </div>
     <div class="card-image">
@@ -111,8 +111,8 @@
     </div>
     <div class="card-text">
       <h3>MPC for Real-Time Guidance</h3>
-      <p>Embedding the convexified OCP inside <strong>MPC</strong> yields a receding-horizon strategy that adapts to measured state and disturbances. Monte Carlo studies under uncertainty demonstrate <strong>real-time feasibility</strong> for rocket guidance, planetary landing, and on-orbit servicing.</p>
-      <p><strong>Keywords:</strong> MPC, real-time optimization, guidance &amp; control.</p>
+      <p>Embedding the convexified OCP inside <strong>Model Predictive Control (MPC)</strong> yields a receding-horizon optimal controller that adapts to measured state and disturbances. Monte Carlo analyses under uncertainty validated the <strong>real-time feasibility</strong> for rocket guidance, planetary landing, and on-orbit servicing scenarios.</p>
+      <p><strong>Keywords:</strong> Model predictive control, real-time optimization, guidance &amp; control.</p>
       <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/6.2020-4268" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2020)</a>, <a href="https://arxiv.org/abs/2212.06518" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2021)</a></p>
     </div>
   </div>
@@ -120,8 +120,8 @@
   <div class="research-card" id="stochastic-control">
     <div class="card-text">
       <h3>Stochastic Optimal Control</h3>
-      <p>To manage uncertainty explicitly, I advance <strong>Covariance Control (CC)</strong>, which co-optimizes a nominal trajectory and feedback policy to steer the full state distribution subject to <strong>chance constraints</strong>. I introduced a <strong>lossless convex reformulation</strong> of CC, enabling low-complexity solutions with rigorous probabilistic safety guarantees for missions in <strong>turbulent atmospheres</strong> and <strong>noisy orbital regimes</strong>.</p>
-      <p><strong>Keywords:</strong> Covariance Control, chance constraints, stochastic MPC, uncertainty.</p>
+      <p>To explicitly manage and control uncertainty, my research advances the field of stochastic optimal control through <strong>Covariance Control (CC)</strong>, which co-optimizes a nominal trajectory and feedback policy to steer the full state distribution (i.e., mean and covariance) subject to <strong>chance constraints</strong>. I introduced a <strong>lossless convex reformulation</strong> of CC, enabling low-complexity solutions with rigorous probabilistic safety guarantees for missions involving low-thrust interplanetary transfers, UAV path planning in cluttered environments, station-keeping near Earth–Moon libration points, and in-space close-proximity operations.</p>
+      <p><strong>Keywords:</strong> Covariance control, chance constraints, stochastic MPC, uncertainty.</p>
       <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G006806" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2022)</a>, <a href="https://doi.org/10.3390/app151910469" target="_blank" rel="noopener">Garzelli et&nbsp;al. (2025)</a></p>
     </div>
     <div class="card-image">
@@ -135,8 +135,8 @@
     </div>
     <div class="card-text">
       <h3>Physics-Informed Neural Networks</h3>
-      <p>I leverage <strong>Physics-Informed Neural Networks (PINNs)</strong> to embed governing dynamics and optimality conditions. <strong>Pontryagin Neural Networks (PoNNs)</strong> incorporate the Maximum Principle for path-constrained OCPs. I also embed kinematics to estimate <strong>attitude from light curves</strong> for SDA, improving physical consistency and data efficiency.</p>
-      <p><strong>Keywords:</strong> PINNs, Pontryagin's Maximum Principle, indirect methods, SDA.</p>
+      <p>To address the "black box" problem in machine learning, I leverage <strong>Physics-Informed Neural Networks (PINNs)</strong> that embed governing dynamics and optimality conditions. <strong>Pontryagin Neural Networks (PoNNs)</strong> incorporate the Maximum Principle for accurately solving path-constrained OCPs. I also embed kinematics to estimate <strong>attitude from light curves</strong> for SDA, improving physical consistency and data efficiency.</p>
+      <p><strong>Keywords:</strong> PINNs, Pontryagin's Maximum Principle (PMP), indirect methods, SDA.</p>
       <p><strong>Selected Publications:</strong> <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener">D’Ambrosio et&nbsp;al. (2025)</a>, <a href="https://www.researchgate.net/publication/388421123_Physics-Informed_Machine_Learning_for_Attitude_Estimation_from_Light_Curves" target="_blank" rel="noopener">Benedikter et&nbsp;al. (2025)</a></p>
     </div>
   </div>
@@ -144,7 +144,7 @@
   <div class="research-card" id="rl-enhanced-mpc">
     <div class="card-text">
       <h3>RL-Enhanced MPC</h3>
-      <p>To blend MPC's constraint-awareness with RL's adaptability, the RL agent learns small cost-shaping corrections in perturbed simulations. The resulting controller improves <strong>robustness</strong> to unmodeled effects over standalone MPC and improves <strong>generalization</strong> over standalone RL. I demonstrate this approach on autonomous planetary landing, where uncertainty and real-time constraints are critical.</p>
+      <p>To blend MPC's constraint-awareness with RL's adaptability, the RL agent learns small cost-shaping corrections in perturbed simulations. The resulting controller improves <strong>robustness</strong> to unmodeled effects over standalone MPC and improves <strong>generalization</strong> over standalone RL. I demonstrated this approach in autonomous planetary landing scenarios, where maintaining robustness to uncertainty while satisfying stringent real-time constraints is critical.</p>
       <p><strong>Keywords:</strong> RL, MPC, robustness, real-time guidance.</p>
       <p><strong>Selected Publications:</strong> <a href="https://www.researchgate.net/publication/396009163_Reinforcement_Learning_Enhanced_Model_Predictive_Control_for_Autonomous_Planetary_Landing" target="_blank" rel="noopener">Federici et&nbsp;al. (2025)</a></p>
     </div>
@@ -159,7 +159,8 @@
     </div>
     <div class="card-text">
       <h3>Learning Warm-Starts for Optimization</h3>
-      <p>Using <strong>imitation learning</strong> (and increasingly, Transformers), I learn structured priors from expert solutions to generate <strong>high-quality initial guesses</strong> for rigorous optimizers, drastically reducing solve time while retaining guarantees. This is key for enabling fast and reliable <strong>onboard flight computing</strong>.</p>
+      <p>
+      I investigate the use of <strong>imitation learning</strong> to train complex control policies from datasets of expert demonstrations. Rather than deploying these learned policies directly as black-box controllers, their output is used to generate <strong>high-quality initial guesses</strong>, or "warm starts," for rigorous, optimization-based algorithms, dramatically reducing solver convergence time while retaining safety and performance guarantees. This approach is particularly valuable for enabling fast and reliable <strong>onboard flight computing</strong> in resource-constrained aerospace systems.</p>
       <p><strong>Keywords:</strong> imitation learning, Transformers, real-time optimization.</p>
     </div>
   </div>
@@ -188,7 +189,8 @@
     </div>
     <div class="card-text">
       <h3>1. Safe-by-Design Hybrid GNC</h3>
-      <p>Fuse learning with control so AI components <strong>improve performance without compromising verifiability</strong>. High-capacity models (e.g., Transformers) provide <strong>warm-starts</strong> to convex/MPC solvers; physics and constraints are embedded in <strong>PINNs/PoNNs</strong> for <strong>safe-by-construction</strong> behavior.</p>
+      <p>
+      The goal is to <strong>fuse the adaptability of learning with the formal guarantees of optimal control theory</strong>. However, the central question is: how can AI components improve performance without compromising <strong>verifiability</strong>? My key insight is that data-driven models should serve as structured guidance rather than black-box decision-makers. This means using NNs to generate high-quality warm-starts for rigorous optimizers or embedding physical laws and safety constraints directly into PINNs/PoNNs, ensuring that GNC architectures are both adaptive and provably safe.</p>
     </div>
   </div>
 
@@ -208,10 +210,12 @@
     </div>
     <div class="card-text">
       <h3>3. Verification &amp; Assurance</h3>
-      <p>A key challenge is ensuring that AI components behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this <strong>sim-to-real</strong> gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>stochastic reachability</strong>–based <strong>assurance envelopes</strong> that formally quantify risk in real time, enabling proactive safety measures and verifiable guarantees for deployed systems. This work is targeted for certification pathways, mission assurance, and <strong>hardware-in-the-loop</strong> flight testing.</p>
+      <p>A key challenge is ensuring that AI components behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this <strong>sim-to-real</strong> gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>stochastic reachability–based assurance envelopes</strong> that formally quantify risk in real time, enabling proactive safety measures and verifiable guarantees for deployed systems. This work is targeted toward certification frameworks, mission assurance, and <strong>hardware-in-the-loop</strong> testing.</p>
     </div>
   </div>
 </div>
+
+  <p>Together, these efforts aim to advance trustworthy autonomy across the full spectrum of aerospace applications, from deep-space exploration to autonomous flight in Earth’s atmosphere.</p>
 
   <!-- ## Selected Publications
 The complete list is on the [Publications](./publications) page.
