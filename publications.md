@@ -9,7 +9,7 @@ title: Publications | Boris Benedikter, Ph.D.
 For a complete and up-to-date list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=kHuGNkEAAAAJ){:target="_blank" rel="noopener noreferrer"}.
 
 <div class="pub-stats">
-    <span><strong>Total Citations:</strong> 600+</span>
+    <span><strong>Total Citations:</strong> 700+</span>
     <span><strong>h-index:</strong> 14</span>
 </div>
 
