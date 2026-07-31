@@ -167,7 +167,7 @@ My group’s research is organized around three interconnected questions that mu
   </div>
 </div>
 
-Together, these efforts aim to advance trustworthy autonomy across the full spectrum of aerospace applications, from deep-space exploration to autonomous flight in Earth's atmosphere.
+Together, these efforts aim to advance trustworthy autonomy across the full spectrum of aerospace applications, from autonomous flight in Earth's atmosphere to deep-space exploration.
 
 ## Join the Research Group
 

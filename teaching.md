@@ -12,7 +12,7 @@ title: Teaching | Boris Benedikter, Ph.D.
 
 Teaching and mentorship are central to how I view my role as a professor. My goal is not only to help students understand technical material, but also to help them develop the <strong>confidence</strong>, <strong>independence</strong>, and <strong>judgment</strong> needed to become thoughtful engineers and researchers.
 
-As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect <><strong>mathematical theory</strong>, <strong>computational methods</strong>, and <strong>real aerospace applications</strong>. My approach is grounded in active learning, inclusive pedagogy, and reflective practice.
+As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect <strong>mathematical theory</strong>, <strong>computational methods</strong>, and <strong>real aerospace applications</strong>. My approach is grounded in active learning, inclusive pedagogy, and reflective practice.
 
 I strive to create learning environments where students engage with challenging ideas through <strong>hands-on work</strong>, <strong>open-ended problems</strong>, <strong>constructive feedback</strong>, and opportunities for <strong>revision</strong>. The same philosophy guides my mentoring: students should feel comfortable asking questions, exploring new directions, and gradually taking ownership of their work.
 
