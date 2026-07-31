@@ -65,9 +65,11 @@
 
   <p>My work unifies the <strong>rigor of optimal control and convex optimization</strong> with the <strong>adaptability of modern AI</strong> to design verifiable <strong>Guidance, Navigation, and Control (GNC)</strong> algorithms for spacecraft, rockets, UAVs, and robotic systems. Traditional control offers guarantees but relies on simplified models; purely data-driven approaches capture complexities but lack formal assurances. I bridge these worlds by using data-driven models to inform mathematically sound optimizers, <strong>combining learning with guarantees</strong> for operation in the uncertain, dynamic, and resource-constrained environments characteristic of aerospace applications.</p>
 
+  <p>At Oklahoma State University, I am building a research program in <strong>trustworthy aerospace autonomy</strong>, with an emphasis on learning-enabled guidance, navigation, and control, real-time adaptation under uncertainty, and verification for safety-critical autonomous systems. Through the OSU-Tulsa aerospace ecosystem, I am particularly interested in connecting <strong>mathematical theory and simulation</strong> with <strong>experimental validation and real-world flight testing</strong>.</p>
+
   <div class="jump-nav">
   <div class="jump-group">
-    <h4 class="jump-group-title">Past &amp; Ongoing Research</h4>
+    <h4 class="jump-group-title">Research Foundations</h4>
     <div class="jump-group-buttons">
       <a href="#convex-optimization" class="jump-btn">Convex Optimization</a>
       <a href="#model-predictive-control" class="jump-btn">MPC for Real-Time Guidance</a>
@@ -88,9 +90,9 @@
   </div>
 </div>
 
-  <h2 id="past--ongoing-research">Past &amp; Ongoing Research</h2>
+  <h2 id="research-foundations">Research Foundations</h2>
 
-  <p>I develop computationally efficient <strong>optimization</strong> methods, advanced <strong>stochastic control</strong> frameworks, and <strong>learning-in-the-loop</strong> techniques to enhance adaptability and real-time feasibility in aerospace settings, from <strong>spacecraft and rocket guidance</strong> to <strong>space domain awareness</strong> and <strong>orbit determination</strong>.</p>
+  <p>My research program builds on complementary foundations in <strong>optimal control</strong>, <strong>stochastic control</strong>, <strong>learning-enabled autonomy</strong>, and <strong>space domain awareness</strong>. Together, these areas provide the theoretical and computational tools needed to develop autonomous aerospace systems that are adaptive, efficient, and trustworthy.</p>
 
   <div class="research-grid">
   <div class="research-card" id="convex-optimization">
@@ -181,7 +183,7 @@
 
   <h2 id="research-vision">Research Vision</h2>
 
-  <p>I aim to establish the scientific and algorithmic foundations for <strong>trustworthy autonomy</strong> in flight and space systems. My vision is organized in three, mutually reinforcing research directions:</p>
+  <p>My group’s research is organized around three interconnected questions that must be addressed before <strong>learning-enabled autonomous systems</strong> can be trusted in real-world aerospace operations:</p>
 
   <div class="research-grid">
   <div class="research-card" id="uniting-learning-and-rigor">
@@ -191,14 +193,14 @@
     <div class="card-text">
       <h3>1. Safe-by-Design Hybrid GNC</h3>
       <p>
-      The goal is to <strong>fuse the adaptability of learning with the formal guarantees of optimal control theory</strong>. However, the central question is: how can AI components improve performance without compromising <strong>verifiability</strong>? My key insight is that data-driven models should serve as structured guidance rather than black-box decision-makers. This means using NNs to generate high-quality warm-starts for rigorous optimizers or embedding physical laws and safety constraints directly into PINNs/PoNNs, ensuring that GNC architectures are both adaptive and provably safe.</p>
+      The goal is to <strong>fuse the adaptability of learning with the formal guarantees of optimal control theory</strong>. However, the central question is: how can AI components improve performance without compromising <strong>verifiability</strong>? Our key insight is that data-driven models should serve as structured guidance rather than black-box decision-makers. This means using NNs to generate high-quality warm-starts for rigorous optimizers or embedding physical laws and safety constraints directly into PINNs/PoNNs, ensuring that GNC architectures are both adaptive and provably safe.</p>
     </div>
   </div>
 
   <div class="research-card" id="adaptable-and-scalable-autonomy">
     <div class="card-text">
       <h3>2. Real-Time Learning &amp; Adaptation</h3>
-      <p>To operate in the real world, autonomous systems must adapt to unpredictable and dynamic environments in real time. My goal is to move beyond static, pre-programmed behaviors by training controllers as general-purpose <strong>Foundation Models</strong>. By leveraging <strong>transfer</strong> and <strong>meta-learning</strong>,  these models can be pre-trained on broad knowledge and then rapidly specialized for new tasks and scenarios. Target use-cases include <strong>UAVs in gusty urban flows</strong> and <strong>deep-space probes</strong> adapting to poorly known fields.</p>
+      <p>To operate in the real world, autonomous systems must adapt to unpredictable and dynamic environments in real time. The goal is to move beyond static, pre-programmed behaviors by training controllers as general-purpose <strong>Foundation Models</strong>. By leveraging <strong>transfer</strong> and <strong>meta-learning</strong>,  these models can be pre-trained on broad knowledge and then rapidly specialized for new tasks and scenarios. Target use-cases include <strong>UAVs in gusty urban flows</strong> and <strong>deep-space probes</strong> adapting to poorly known fields.</p>
     </div>
     <div class="card-image">
       <img src="/assets/img/research/foundation_model.png" alt="Real-Time Learning" />
@@ -211,12 +213,18 @@
     </div>
     <div class="card-text">
       <h3>3. Verification &amp; Assurance</h3>
-      <p>A key challenge is ensuring that AI components behave reliably when transitioning from simulation to the real world. My vision is to establish the theoretical foundations and practical tools needed to bridge this <strong>sim-to-real</strong> gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>stochastic reachability–based assurance envelopes</strong> that formally quantify risk in real time, enabling proactive safety measures and verifiable guarantees for deployed systems. This work is targeted toward certification frameworks, mission assurance, and <strong>hardware-in-the-loop</strong> testing.</p>
+      <p>A key challenge is ensuring that AI components behave reliably when transitioning from simulation to the real world. Our vision is to establish the theoretical foundations and practical tools needed to bridge this <strong>sim-to-real</strong> gap. This involves developing <strong>runtime monitoring systems</strong> and <strong>stochastic reachability–based assurance envelopes</strong> that formally quantify risk in real time, enabling proactive safety measures and verifiable guarantees for deployed systems. This work is targeted toward certification frameworks, mission assurance, and <strong>hardware-in-the-loop</strong> testing.</p>
     </div>
   </div>
 </div>
 
   <p>Together, these efforts aim to advance trustworthy autonomy across the full spectrum of aerospace applications, from deep-space exploration to autonomous flight in Earth’s atmosphere.</p>
+
+  <h2 id="join-the-research-group">Join the Research Group</h2>
+
+  <p>I welcome inquiries from undergraduate, graduate, and Ph.D. students interested in autonomous systems, aerospace guidance and control, optimization, machine learning, robotics, and space systems. Students in my group will have opportunities to work across mathematical theory, computational implementation, simulation, and experimental validation.</p>
+
+  <p>I also welcome collaborations with academic, government, and industry partners interested in trustworthy autonomy, advanced air mobility, unmanned aircraft, and autonomous space systems. Visit the <a href="./contact.html">Contact</a> page to get in touch.</p>
 
   <!-- ## Selected Publications
 The complete list is on the [Publications](./publications) page.
