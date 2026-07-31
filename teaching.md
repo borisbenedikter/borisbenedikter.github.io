@@ -10,11 +10,11 @@ title: Teaching | Boris Benedikter, Ph.D.
     <blockquote>"Learning is <strong>active</strong> and <strong>adaptive</strong>: students build understanding through <strong>doing</strong>, and I refine teaching through <strong>feedback</strong> and <strong>reflection</strong>."</blockquote>
 </section>
 
-Teaching and mentorship are central to how I view my role as a professor. My goal is not only to help students understand technical material, but also to help them develop the confidence, independence, and judgment needed to become thoughtful engineers and researchers.
+Teaching and mentorship are central to how I view my role as a professor. My goal is not only to help students understand technical material, but also to help them develop the <strong>confidence</strong>, <strong>independence</strong>, and <strong>judgment</strong> needed to become thoughtful engineers and researchers.
 
-As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect mathematical theory, computational methods, and real aerospace applications. My approach is grounded in active learning, inclusive pedagogy, and reflective practice, supported by formal training through the [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway){:target="_blank" rel="noopener noreferrer"}.
+As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect <><strong>mathematical theory</strong>, <strong>computational methods</strong>, and <strong>real aerospace applications</strong>. My approach is grounded in active learning, inclusive pedagogy, and reflective practice.
 
-I strive to create learning environments where students engage with challenging ideas through hands-on work, open-ended problems, constructive feedback, and opportunities for revision. The same philosophy guides my mentoring: students should feel comfortable asking questions, exploring new directions, and gradually taking ownership of their work.
+I strive to create learning environments where students engage with challenging ideas through <strong>hands-on work</strong>, <strong>open-ended problems</strong>, <strong>constructive feedback</strong>, and opportunities for <strong>revision</strong>. The same philosophy guides my mentoring: students should feel comfortable asking questions, exploring new directions, and gradually taking ownership of their work.
 
 <!-- ## Teaching Philosophy
 
@@ -108,8 +108,7 @@ This feedback reinforces my goal of increasing **student engagement** and provid
         <strong>MAE 4283 — Aerospace Vehicle Stability and Control</strong>
         <div class="institution">Oklahoma State University</div>
         <p>
-            Undergraduate course covering the principles used to analyze the stability, 
-            dynamics, and control of aerospace vehicles.
+            Senior undergraduate and graduate-level course covering the principles used to analyze the stability, dynamics, and control of aerospace vehicles.
         </p>
     </li>
 </ul>
@@ -123,11 +122,11 @@ This feedback reinforces my goal of increasing **student engagement** and provid
         <div class="date">Spring 2025</div>
         <strong>Co-Instructor — SIE 496/596: Robotic Systems</strong>
         <div class="institution">University of Arizona</div>
-        <p>Designed and delivered a 4-week module on the Robot Operating System (ROS) for a mixed senior undergraduate and graduate course. I developed all instructional materials, including lectures, hands-on exercises, and a final project, focusing on active learning and real-world applications.</p>
+        <p>Designed and delivered a 4-week module on the Robot Operating System (ROS) for a mixed senior undergraduate and graduate course.</p>
     </li>
 </ul>
 
----
+<!-- ---
 
 ## Pedagogical Training
 
@@ -150,7 +149,7 @@ This feedback reinforces my goal of increasing **student engagement** and provid
         <div class="institution">Center for Integration of Research, Teaching, and Learning (CIRTL) Network</div>
         <p>Completed an 8-week asynchronous online course covering foundational topics in active learning, inclusive pedagogy, and effective student engagement.</p>
     </li>
-</ul>
+</ul> -->
 
 ---
 
