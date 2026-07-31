@@ -10,12 +10,13 @@ title: Teaching | Boris Benedikter, Ph.D.
     <blockquote>"Learning is <strong>active</strong> and <strong>adaptive</strong>: students build understanding through <strong>doing</strong>, and I refine teaching through <strong>feedback</strong> and <strong>reflection</strong>."</blockquote>
 </section>
 
-Besides my research activities, I am deeply committed to teaching and mentoring the next generation of engineers and scientists. 
-My approach is grounded in formal pedagogical training I received through the year-long [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway){:target="_blank" rel="noopener noreferrer"}, where I developed a **reflective**, **evidence-based teaching** practice.
-I strive to create **inclusive** and **engaging** learning environments by connecting complex topics to real-world applications.
-This philosophy has guided my experience co-teaching a graduate-level course in robotic systems and my ongoing mentorship of undergraduate and doctoral students.
+Teaching and mentorship are central to how I view my role as a professor. My goal is not only to help students understand technical material, but also to help them develop the confidence, independence, and judgment needed to become thoughtful engineers and researchers.
 
-## Teaching Philosophy
+As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect mathematical theory, computational methods, and real aerospace applications. My approach is grounded in active learning, inclusive pedagogy, and reflective practice, supported by formal training through the [CIRTL Postdoc Pathways Program at University of Arizona](https://academicaffairs.arizona.edu/cirtl/postdoc-pathway){:target="_blank" rel="noopener noreferrer"}.
+
+I strive to create learning environments where students engage with challenging ideas through hands-on work, open-ended problems, constructive feedback, and opportunities for revision. The same philosophy guides my mentoring: students should feel comfortable asking questions, exploring new directions, and gradually taking ownership of their work.
+
+<!-- ## Teaching Philosophy
 
 My teaching philosophy is built on a commitment to creating an inclusive and effective learning environment. It is guided by the following core principles:
 
@@ -40,18 +41,13 @@ My teaching philosophy is built on a commitment to creating an inclusive and eff
   <h4>Active & Hands-On Learning</h4>
     <p>True understanding comes from doing. I design courses with a strong emphasis on <strong>active learning</strong>, using hands-on exercises, assignments with opportunities for revision, and open-ended projects that support students to apply their knowledge, problem-solve, and take ownership of their learning.</p>
   </div>
-</div>
+</div> -->
 
-<!-- * **Reflective & Iterative Practice:** I approach teaching as I do research: as an iterative process of setting goals, testing ideas, and using feedback to improve. This reflective practice, informed by the "teaching-as-research" model, allows me to continually refine my methods.
-* **Inclusive & Adaptive Teaching:** Recognizing that students learn in diverse ways, I adapt my strategies to create an inclusive environment where every student feels valued. I view student diversity as a resource that enriches the classroom, a principle shaped by my training in evidence-based and inclusive pedagogy.
-* **Motivating Through Real-World Connections:** I believe that motivation is key to deep learning. I strive to spark curiosity by connecting course material to meaningful, real-world applications—from NASA's Mars rovers to everyday robotics—to show students the relevance and impact of their work.
-* **Active & Hands-On Learning:** True understanding comes from doing. I design courses with a strong emphasis on active learning, using hands-on exercises, assignments with opportunities for revision, and open-ended projects that challenge students to apply their knowledge, problem-solve, and take ownership of their learning. -->
+<!-- --- -->
 
----
+<!-- ## Evidence of Teaching in Practice -->
 
-## Evidence of Teaching in Practice
-
-Below are examples of materials I developed for the "Robotic Systems" course, each designed to address a specific learning goal.
+<!-- Below are examples of materials I developed for the "Robotic Systems" course, each designed to address a specific learning goal.
 
 <div class="teaching-artifacts-grid grid-2x2">
   <div class="artifact-card">
@@ -71,11 +67,11 @@ Below are examples of materials I developed for the "Robotic Systems" course, ea
     <h4>Project-Based Learning</h4>
     <p>The <strong>final project</strong> challenged students to apply concepts from across the course in a complex, open-ended scenario: simulating a Mars rover. This approach mirrors real-world engineering practice and assesses students' ability to <strong>reason through design decisions</strong> and <strong>problem-solve independently.</strong></p>
   </div>
-</div>
+</div> -->
 
----
+<!-- --- -->
 
-## Teaching Mentor Voice
+<!-- ## Teaching Mentor Voice
 
 The main instructor of the **"Robotic Systems"** course, **Prof. Fabio Curti**, observed my teaching and wrote a letter summarizing his observations.
 
@@ -86,11 +82,11 @@ The letter highlights that we met regularly before and after each lecture to dis
     <img src="{{ '/assets/img/teaching/teaching_obs_letter.png' | relative_url }}" alt="A screenshot of the observation letter from teaching mentor Prof. Fabio Curti">
     <span>View Mentor Observation Letter (PDF)</span>
   </a>
-</div>
+</div> -->
 
----
+<!-- --- -->
 
-## Student Voices
+<!-- ## Student Voices
 
 To evaluate the impact of my teaching, I collected **anonymous student feedback** after the ROS module. Their responses highlighted the value of **clear explanations** and **hands-on learning**, and provided **constructive ideas** for future iterations.
 
@@ -100,11 +96,27 @@ To evaluate the impact of my teaching, I collected **anonymous student feedback*
 > "It would be cool if we started doing ROS projects earlier... For example, you could give an sdf file of the world, and have the student write code for the simulation to navigate the course as a step before implementing any reinforced learning." 
 > <cite>— Graduate Student</cite>
 
-This feedback reinforces my goal of increasing **student engagement** and providing structured opportunities for **experimentation**, which I will incorporate in future versions of the course.
+This feedback reinforces my goal of increasing **student engagement** and providing structured opportunities for **experimentation**, which I will incorporate in future versions of the course. -->
 
 ---
 
-## Instructional Experience
+## Courses at Oklahoma State University
+
+<ul class="timeline">
+    <li>
+        <div class="date">Fall 2026</div>
+        <strong>MAE 4283 — Aerospace Vehicle Stability and Control</strong>
+        <div class="institution">Oklahoma State University</div>
+        <p>
+            Undergraduate course covering the principles used to analyze the stability, 
+            dynamics, and control of aerospace vehicles.
+        </p>
+    </li>
+</ul>
+
+---
+
+## Previous Instructional Experience
 
 <ul class="timeline">
     <li>
@@ -150,10 +162,10 @@ My approach to mentoring mirrors my teaching philosophy: I see it as a shift fro
 I aim to create a space where students feel empowered to tackle open-ended challenges, reason through design decisions, and learn through an iterative process of inquiry and reflection.
 By providing consistent feedback and asking probing questions, I help students build not only their technical skills but also their confidence and creativity.
 
-#### Doctoral Students
+<!-- #### Doctoral Research Mentorship
 
-* A. Garzelli (2023–Present): Research on **stochastic optimal control** for spacecraft rendezvous and UAV guidance.
-* L. Ramponi (2025–Present): Research on **DeepONets** and **Transformers** for space situational awareness.
+* A. Garzelli, University of Seville (2023–Present): Research on **stochastic optimal control** for spacecraft rendezvous and UAV guidance.
+* L. Ramponi, University of Arizona (2025–Present): Research on **DeepONets** and **Transformers** for space situational awareness. -->
 
 #### Undergraduate & M.Sc. Theses Co-Advised
 
@@ -161,5 +173,11 @@ By providing consistent feedback and asking probing questions, I help students b
 * A. Capelle Domínguez (2023), **"Convex Optimization of Powered Guided Landing on Mars"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
 * I. Llansó y Pérez (2022), **"Convex Optimization of ΔV-EGA Interplanetary Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
 * A. Vittori (2021), **"Convex Optimization of Mars Descent Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
+
+## Working With Students
+
+I welcome students who are curious, motivated, and interested in developing both strong theoretical foundations and practical research skills. My goal as a mentor is to provide clear guidance and consistent support while helping each student progressively take ownership of their research.
+
+Undergraduate, graduate, and Ph.D. students interested in autonomous systems, aerospace guidance and control, optimization, machine learning, robotics, or space systems are encouraged to visit the [Research](research.html) page and [contact me](contact.html).
 
 </div>
