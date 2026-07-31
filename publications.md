@@ -10,7 +10,7 @@ For a complete and up-to-date list, please visit my [Google Scholar profile](htt
 
 <div class="pub-stats">
     <span><strong>Total Citations:</strong> 700+</span>
-    <span><strong>h-index:</strong> 14</span>
+    <span><strong>h-index:</strong> 15</span>
 </div>
 
 ## Journal Articles
