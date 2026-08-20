@@ -1,20 +1,73 @@
 ---
 layout: default
-title: Teaching | Boris Benedikter, Ph.D.
+title: Mentoring & Teaching | Boris Benedikter, Ph.D.
 ---
 <div class="container" markdown="1">
 
-# Teaching & Mentoring
+# Mentoring & Teaching
 
 <section class="research-vision">
-    <blockquote>"Learning is <strong>active</strong> and <strong>adaptive</strong>: students build understanding through <strong>doing</strong>, and I refine teaching through <strong>feedback</strong> and <strong>reflection</strong>."</blockquote>
+  <blockquote>
+    "Independence does not mean working alone. My goal is to help students learn
+    <strong>what to do, why they are doing it, and when to ask for another perspective.</strong>"
+  </blockquote>
 </section>
 
-Teaching and mentorship are central to how I view my role as a professor. My goal is not only to help students understand technical material, but also to help them develop the <strong>confidence</strong>, <strong>independence</strong>, and <strong>judgment</strong> needed to become thoughtful engineers and researchers.
+Mentoring is one of the parts of being a professor that I value most. My goal is to help students become
+**confident, creative, and independent researchers** while making sure they know that independence does not mean
+having to solve every difficult problem alone.
 
-As an Assistant Professor of Mechanical and Aerospace Engineering at Oklahoma State University, I teach and develop courses that connect <strong>mathematical theory</strong>, <strong>computational methods</strong>, and <strong>real aerospace applications</strong>. My approach is grounded in active learning, inclusive pedagogy, and reflective practice.
+I try to provide the kind of research environment that I appreciated as a PhD student myself: technically ambitious,
+but calm and supportive; enough freedom to develop ideas independently, but an advisor who is available when another
+perspective can help. I care about strong research and meaningful progress, but I also want students to enjoy this
+stage of their lives beyond the university.
 
-I strive to create learning environments where students engage with challenging ideas through <strong>hands-on work</strong>, <strong>open-ended problems</strong>, <strong>constructive feedback</strong>, and opportunities for <strong>revision</strong>. The same philosophy guides my mentoring: students should feel comfortable asking questions, exploring new directions, and gradually taking ownership of their work.
+## What Working With Me Looks Like
+
+<div class="highlights">
+
+  <div class="highlight-card static-card">
+    <h3>Guided Independence</h3>
+    <p>
+      I want students to think through difficult problems and try solutions on their own,
+      without feeling that they have to struggle alone. I want students to feel
+      comfortable reaching out, stopping by my office, or asking to brainstorm when another perspective would help, without the need for a recurring meeting schedule or constant progress checks.
+    </p>
+  </div>
+
+  <div class="highlight-card static-card">
+    <h3>Freedom to Explore</h3>
+    <p>
+      I want students to bring forward ideas that I did not think of myself and gradually take ownership of their research.
+      Even when an idea does not work as expected, pursuing it thoughtfully is valuable: research is about proposing ideas,
+      testing them, learning from the results, and deciding what to try next.
+    </p>
+  </div>
+
+  <div class="highlight-card static-card">
+    <h3>Work-Life Balance</h3>
+    <p>
+      I care about consistent progress, responsibility, and good research, not about counting hours in the lab.
+      Some deadlines will naturally require an extra push, but overall I strongly value work-life balance and want students
+      to enjoy this stage of their lives not only as researchers, but also as people.
+    </p>
+  </div>
+
+</div>
+
+## Mentoring Experience
+
+### PhD Research Mentoring
+
+- **A. Garzelli**, University of Seville — research on stochastic optimal control for spacecraft rendezvous and UAV guidance.
+- **L. Ramponi**, University of Arizona — research on machine learning for space-domain-awareness applications.
+
+### Undergraduate & M.S. Theses Co-Advised
+
+- F. Gettatelli (2023), **"Convex Optimization of Ascent and Powered Descent of a Reusable Launch Vehicle"**, M.Sc., Sapienza University of Rome
+- A. Capelle Domínguez (2023), **"Convex Optimization of Powered Guided Landing on Mars"**, B.Sc., Sapienza University of Rome
+- I. Llansó y Pérez (2022), **"Convex Optimization of ΔV-EGA Interplanetary Trajectories"**, B.Sc., Sapienza University of Rome
+- A. Vittori (2021), **"Convex Optimization of Mars Descent Trajectories"**, B.Sc., Sapienza University of Rome
 
 <!-- ## Teaching Philosophy
 
@@ -100,17 +153,21 @@ This feedback reinforces my goal of increasing **student engagement** and provid
 
 ---
 
-## Courses at Oklahoma State University
+---
+
+## Teaching at Oklahoma State University
+
+My teaching follows the same philosophy as my mentoring: students learn best when they actively work through problems, test ideas, receive constructive feedback, and gradually take ownership of their learning.
 
 <ul class="timeline">
-    <li>
-        <div class="date">Fall 2026</div>
-        <strong>MAE 4283 — Aerospace Vehicle Stability and Control</strong>
-        <div class="institution">Oklahoma State University</div>
-        <p>
-            Senior undergraduate and graduate-level course covering the principles used to analyze the stability, dynamics, and control of aerospace vehicles.
-        </p>
-    </li>
+  <li>
+    <div class="date">Fall 2026</div>
+    <strong>MAE 4283/5080 — Aerospace Vehicle Stability and Control</strong>
+    <div class="institution">Oklahoma State University</div>
+    <p>
+      Senior undergraduate and graduate-level course covering the principles used to analyze the stability, dynamics, and control of aerospace vehicles.
+    </p>
+  </li>
 </ul>
 
 ---
@@ -125,58 +182,5 @@ This feedback reinforces my goal of increasing **student engagement** and provid
         <p>Designed and delivered a 4-week module on the Robot Operating System (ROS) for a mixed senior undergraduate and graduate course.</p>
     </li>
 </ul>
-
-<!-- ---
-
-## Pedagogical Training
-
-<ul class="timeline">
-    <li>
-        <div class="date">Spring 2025</div>
-        <strong>Faculty Learning Community on Teaching in Practice</strong>
-        <div class="institution">University of Arizona</div>
-        <p>Engaged in biweekly peer mentorship and reflection meetings during a mentored co-teaching experience, focusing on applying pedagogical theory and sharing practical challenges and successes.</p>
-    </li>
-    <li>
-        <div class="date">Fall 2024</div>
-        <strong>Faculty Learning Community on Evidence-Based Teaching</strong>
-        <div class="institution">University of Arizona</div>
-        <p>Participated in weekly meetings with a cross-disciplinary cohort of postdoctoral scholars to discuss pedagogical theory, share insights from the CIRTL online course, and develop co-teaching plans.</p>
-    </li>
-    <li>
-        <div class="date">Fall 2024</div>
-        <strong>An Introduction to Evidence-Based Undergraduate STEM Teaching</strong>
-        <div class="institution">Center for Integration of Research, Teaching, and Learning (CIRTL) Network</div>
-        <p>Completed an 8-week asynchronous online course covering foundational topics in active learning, inclusive pedagogy, and effective student engagement.</p>
-    </li>
-</ul> -->
-
----
-
-## Mentoring
-
-Mentoring is not just a responsibility alongside research; it is a **commitment to a student's learning, growth, and future**. My goal is to foster a collaborative environment where students can develop into independent and impactful researchers.
-
-My approach to mentoring mirrors my teaching philosophy: I see it as a shift from delivering content to **guiding and supporting**. 
-I aim to create a space where students feel empowered to tackle open-ended challenges, reason through design decisions, and learn through an iterative process of inquiry and reflection.
-By providing consistent feedback and asking probing questions, I help students build not only their technical skills but also their confidence and creativity.
-
-<!-- #### Doctoral Research Mentorship
-
-* A. Garzelli, University of Seville (2023–Present): Research on **stochastic optimal control** for spacecraft rendezvous and UAV guidance.
-* L. Ramponi, University of Arizona (2025–Present): Research on **DeepONets** and **Transformers** for space situational awareness. -->
-
-#### Undergraduate & M.Sc. Theses Co-Advised
-
-* F. Gettatelli (2023), **"Convex Optimization of Ascent and Powered Descent of a Reusable Launch Vehicle"**, M.Sc. in Space and Astronautical Engineering, Sapienza University of Rome
-* A. Capelle Domínguez (2023), **"Convex Optimization of Powered Guided Landing on Mars"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
-* I. Llansó y Pérez (2022), **"Convex Optimization of ΔV-EGA Interplanetary Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
-* A. Vittori (2021), **"Convex Optimization of Mars Descent Trajectories"**, B.Sc. in Aerospace Engineering, Sapienza University of Rome
-
-## Working With Students
-
-I welcome students who are curious, motivated, and interested in developing both strong theoretical foundations and practical research skills. My goal as a mentor is to provide clear guidance and consistent support while helping each student progressively take ownership of their research.
-
-Undergraduate, graduate, and Ph.D. students interested in autonomous systems, aerospace guidance and control, optimization, machine learning, robotics, or space systems are encouraged to visit the [Research](research.html) page and [contact me](contact.html).
 
 </div>

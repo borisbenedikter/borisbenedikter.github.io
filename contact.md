@@ -8,6 +8,21 @@ title: Contact | Boris Benedikter, Ph.D.
 
 I am always open to discussing research, potential collaborations, or mentoring opportunities. Please feel free to reach out through email or the contact form below.
 
+<div class="opportunity-home-banner">
+  <div class="opportunity-home-banner-text">
+    <strong>Interested in Joining My Research Group?</strong>
+    <span>
+      If you are interested in a <strong>Spring 2027 PhD position</strong>, please visit the dedicated opportunity page
+      rather than using the general contact form below. There you can learn more about the research, mentoring environment,
+      funding, and introduce yourself through a short interest form.
+    </span>
+  </div>
+
+  <a href="phd-spring-2027.html#apply" class="jump-btn opportunity-primary-btn">
+    PhD Opportunities
+  </a>
+</div>
+
 <div class="contact-grid">
   <div class="contact-details">
     <h3>Office Address</h3>

@@ -169,12 +169,6 @@ My group’s research is organized around three interconnected questions that mu
 
 Together, these efforts aim to advance trustworthy autonomy across the full spectrum of aerospace applications, from autonomous flight in Earth's atmosphere to deep-space exploration.
 
-## Join the Research Group
-
-I welcome inquiries from undergraduate, graduate, and Ph.D. students interested in autonomous systems, aerospace guidance and control, optimization, machine learning, robotics, and space systems. Students in my group will have opportunities to work across mathematical theory, computational implementation, simulation, and experimental validation.
-
-I also welcome collaborations with academic, government, and industry partners interested in trustworthy autonomy, advanced air mobility, unmanned aircraft, and autonomous space systems. Visit the [Contact](./contact.html) page to get in touch.
-
 <!-- ## Selected Publications
 The complete list is on the [Publications](./publications) page.
 <ul class="pub-list">
