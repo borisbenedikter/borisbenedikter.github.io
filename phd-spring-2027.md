@@ -282,7 +282,7 @@ There is no single ideal academic background. Relevant preparation may come from
 An **M.S. degree is preferred but not required**. I also encourage strong bachelor's-level students to get in touch if they have developed relevant experience through research, industry, internships, independent projects, or other technical work. 
 A student who already brings a strong combination of skills in areas such as controls, optimization, machine learning, robotics, or autonomous systems may be an excellent fit even without a master's degree.
 
-Applicants are **not expected to have experience in every research area listed above**. I am interested in building a group with complementary strengths. 
+You are **not expected to have experience in every research area listed above**. I am interested in building a group with complementary strengths. 
 <!-- A student with a strong background in robotics, controls, machine learning, optimization, applied mathematics, or experimental systems may be an excellent fit even without an aerospace background. -->
 If your background is outside traditional aerospace engineering, I am especially interested in understanding how your expertise could contribute to autonomous aerospace systems. Strong candidates should not hesitate to express interest based solely on differences between their academic background and the traditional aerospace engineering path.
 
@@ -405,7 +405,7 @@ There is no need to provide recommendation letters at this stage.
 
   <input type="hidden"
         name="subject"
-        value="Spring 2027 PhD Interest — {{ name }}">
+        value="Spring 2027 PhD Interest">
 
   <div class="form-grid">
 
@@ -482,7 +482,7 @@ There is no need to provide recommendation letters at this stage.
 
 ---
 
-## Formal OSU Application
+## Next Step: Formal OSU Application
 
 If, after our research conversations, we both feel that the group would be a good fit, the next step will be the
 **formal PhD application to Oklahoma State University** through the Graduate College and the School of Mechanical and Aerospace Engineering.
