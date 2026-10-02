@@ -12,14 +12,14 @@ I am always open to discussing research, potential collaborations, or mentoring 
   <div class="opportunity-home-banner-text">
     <strong>Interested in Joining My Research Group?</strong>
     <span>
-      If you are interested in a <strong>Spring 2027 PhD position</strong>, please visit the dedicated opportunity page
+      If you are interested in pursuing a <strong>PhD in my research group</strong>, please visit the dedicated prospective-student page
       rather than using the general contact form below. There you can learn more about the research, mentoring environment,
-      funding, and introduce yourself through a short interest form.
+      funding and availability, and introduce yourself through the expression-of-interest form.
     </span>
   </div>
 
-  <a href="phd-spring-2027.html#apply" class="jump-btn opportunity-primary-btn">
-    PhD Opportunities
+  <a href="prospective-phd-students.html#apply" class="jump-btn opportunity-primary-btn">
+    Prospective PhD Students
   </a>
 </div>
 
