@@ -269,6 +269,11 @@ footer a:hover {
     box-shadow: 0 4px 15px var(--shadow-color);
 }
 
+/* Keep section links visible below the sticky header. */
+main [id] {
+    scroll-margin-top: 11rem;
+}
+
 /* --- Research Page Styles --- */
 .research-vision {
     background-color: var(--surface-accent);
@@ -342,6 +347,69 @@ footer a:hover {
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 2rem;
+}
+
+.publication-section {
+    margin: 1rem 0;
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--brand-color);
+    border-radius: 0 8px 8px 0;
+}
+
+.publication-section > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: inherit;
+    cursor: pointer;
+    list-style: none;
+}
+
+.publication-section > summary::-webkit-details-marker {
+    display: none;
+}
+
+.publication-section > summary::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    flex-shrink: 0;
+    margin-right: 0.2rem;
+    border-right: 2px solid var(--brand-color);
+    border-bottom: 2px solid var(--brand-color);
+    transform: rotate(45deg);
+}
+
+.publication-section[open] > summary::after {
+    transform: rotate(225deg);
+}
+
+.publication-section > summary h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.publication-section > summary:hover,
+.publication-section[open] > summary {
+    background-color: var(--surface-accent);
+}
+
+.publication-section > summary:focus-visible {
+    outline: 2px solid var(--focus-color);
+    outline-offset: 4px;
+}
+
+.publication-content {
+    padding: 0.5rem 1.5rem 1.5rem;
+    overflow-wrap: anywhere;
+}
+
+.publication-content > :last-child,
+.publication-content li:last-child {
+    margin-bottom: 0;
 }
 
 .pub-list {
