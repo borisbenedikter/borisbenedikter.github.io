@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fully Funded PhD Positions — Spring 2027 | Boris Benedikter, Ph.D.
-description: Fully funded PhD opportunities in trustworthy aerospace autonomy, optimal control, learning-enabled guidance and control, and autonomous aerospace systems at Oklahoma State University–Tulsa.
+description: PhD research at OSU-Tulsa in stochastic optimal control, covariance control, optimization, learning, and autonomous systems. AI experience is not required.
 ---
 
 <div class="container" markdown="1">
@@ -12,8 +12,15 @@ description: Fully funded PhD opportunities in trustworthy aerospace autonomy, o
   <h1>Fully Funded PhD Positions in Trustworthy Aerospace Autonomy</h1>
 
   <p class="opportunity-subtitle">
-    Join my new research group at <strong>Oklahoma State University–Tulsa</strong> working at the intersection of
-    <strong>optimal control</strong>, <strong>machine learning</strong>, and <strong>autonomous aerospace systems</strong>.
+    Join my research group at <strong>Oklahoma State University–Tulsa</strong> advancing
+    <strong>trustworthy autonomy</strong> through <strong>control, optimization, and learning</strong>,
+    with a focus on planning and control under uncertainty.
+  </p>
+
+  <p>
+    Students with strengths in <strong>control, optimization, probability, applied mathematics,
+    machine learning, or experimental systems</strong> are welcome.
+    <strong>Prior AI or machine learning experience is not required.</strong>
   </p>
 
   <div class="opportunity-badges">
@@ -62,11 +69,11 @@ Our central research question is:
 
 <section class="research-vision">
   <blockquote>
-    How can autonomous aerospace systems <strong>learn</strong>, <strong>adapt</strong>, and make intelligent decisions while remaining <strong>safe</strong>, <strong>predictable</strong>, and worthy of our <strong>trust</strong>?
+    How can autonomous aerospace and robotic systems make <strong>safe and efficient decisions</strong> under <strong>uncertainty</strong>, constraints, and limited computation?
   </blockquote>
 </section>
 
-My group approaches this problem by combining the mathematical structure and guarantees of **optimal control, optimization, and model-based guidance and control** with the adaptability of **machine learning and artificial intelligence**. Rather than treating learning and classical control as competing approaches, we develop hybrid architectures in which they complement one another.
+My group develops **model-based, learning-enabled, and hybrid methods**, choosing an approach according to the research question, available information, computational resources, and safety and performance requirements. **Stochastic optimal control, covariance control, and convex optimization are central research directions**, alongside learning-based methods and their integration with control. A PhD project may focus on any of these approaches, depending on the student’s interests and the projects active in the group.
 
 As a PhD student in my group, you will have opportunities to work across the full research pipeline:
 
@@ -93,78 +100,34 @@ The PhD positions are intentionally **not tied to a single predetermined project
 
   <div class="research-card">
     <div class="card-text">
-      <h3>1. Optimal & Uncertainty-Aware Guidance and Control</h3>
-
-      <p>
-        We develop computationally efficient methods for planning and control of aerospace systems operating under
-        nonlinear dynamics, constraints, and uncertainty. A major goal is to move optimization from an offline design
-        tool toward a capability that can support <strong>real-time autonomous decision-making</strong>.
-      </p>
-
-      <p>
-        Research directions include optimal control, trajectory optimization,
-        lossless and successive convexification, Model Predictive Control (MPC),
-        stochastic optimal control, covariance control,
-        chance-constrained planning, and risk-aware guidance.
-      </p>
-
-      <p>
-        Potential applications span UAV navigation, advanced air mobility, spacecraft proximity operations,
-        planetary and rocket landing, launch vehicles, and other safety-critical autonomous systems.
-      </p>
-
+      <h3>1. Optimization-Based Planning and Control</h3>
+      <p>We develop computationally efficient methods for planning and control under nonlinear dynamics and mission constraints. Research includes <strong>optimal control, trajectory optimization, lossless and successive convexification, and model predictive control (MPC)</strong>.</p>
+      <p>Projects may focus on new mathematical formulations, numerical algorithms, and real-time guidance for launch vehicles, spacecraft, UAVs, and robotic systems. A central goal is to make optimization reliable and practical for autonomous decision-making.</p>
     </div>
   </div>
 
   <div class="research-card">
     <div class="card-text">
-      <h3>2. Learning-Enabled & Trustworthy Autonomy</h3>
-
-      <p>
-        Machine learning can give autonomous systems capabilities that are difficult to obtain from fixed analytical models,
-        but black-box learning alone is often poorly suited to safety-critical aerospace applications. We investigate ways to
-        integrate learning <strong>inside structured, model-based control architectures</strong> so that adaptability does not
-        come at the expense of safety, interpretability, or constraint awareness.
-      </p>
-
-      <p>
-        Topics may include reinforcement-learning-enhanced MPC, physics-informed neural networks,
-        imitation learning, learning-assisted trajectory optimization, safe learning,
-        transfer and meta-learning, online adaptation, multi-agent autonomy, formal verification, and runtime assurance.
-      </p>
-
-      <p>
-        A recurring theme is to use learning where it is most valuable (e.g., to adapt optimization parameters,
-        identify model mismatch, generate high-quality warm starts, or extract information from data) while retaining
-        rigorous structure in the final decision-making process.
-      </p>
-
+      <h3>2. Stochastic Optimal Control and Covariance Control</h3>
+      <p>We investigate how to <strong>jointly design trajectories and feedback policies</strong> while explicitly accounting for uncertainty. Topics include covariance control, chance-constrained planning, uncertainty propagation, and risk-aware guidance.</p>
+      <p>These projects offer opportunities for students interested in probability, control theory, convex optimization, and numerical methods. Applications include UAV obstacle avoidance, spacecraft rendezvous and docking, low-thrust transfers, and stationkeeping.</p>
     </div>
   </div>
 
   <div class="research-card">
     <div class="card-text">
-    <h3>3. Experimental Autonomous Aerospace Systems</h3>
+      <h3>3. Learning-Enabled and Hybrid Autonomy</h3>
+      <p>We develop learning-enabled methods and investigate how learning can improve <strong>models, control policies, and optimization algorithms</strong>. Topics include reinforcement-learning-enhanced MPC, physics-informed neural networks, imitation learning, learned warm starts, and data-driven uncertainty models.</p>
+      <p>Research examines when learning improves performance, adaptation, or computational efficiency, and how to evaluate the resulting system's reliability and constraint satisfaction. Students with machine learning experience can contribute to both learning-based methods and their integration with control and optimization.</p>
+    </div>
+  </div>
 
-    <p>
-      A major objective of the group is to take new autonomy and control methods beyond simulation and evaluate them on
-      <strong>real experimental platforms</strong>.
-    </p>
-
-    <p>
-      One particularly exciting direction will be <strong>laboratory experiments that recreate spacecraft maneuvers and operations</strong>.
-      The group plans to develop a spacecraft test platform that moves over an almost frictionless surface, allowing us to reproduce
-      aspects of orbital motion inside the laboratory and test autonomous guidance and control algorithms on real hardware.
-      These experiments will support research on spacecraft rendezvous, proximity operations, docking, formation flight,
-      on-orbit servicing, and other autonomous space missions.
-    </p>
-
-    <p>
-      The group will also develop <strong>autonomous UAV platforms</strong> equipped with onboard computing and sensing for research
-      in learning-based control, navigation, multi-vehicle coordination, and real-time autonomy. Planned capabilities include
-      indoor motion-capture experiments, outdoor flight testing, and hardware-in-the-loop validation.
-    </p>
-
+  <div class="research-card">
+    <div class="card-text">
+      <h3>4. Safety, Verification, and Experimental Autonomous Systems</h3>
+      <p>We aim to connect mathematical analysis and simulation with <strong>systematic testing and experiments</strong> across model-based, learning-enabled, and hybrid methods. Directions include uncertainty analysis, stress testing, runtime assurance, and hardware-in-the-loop validation.</p>
+      <p>The laboratory is being established at OSU-Tulsa. Planned capabilities include a spacecraft maneuver platform operating over an almost frictionless surface and autonomous UAVs with onboard computing and sensing. These platforms will support studies of rendezvous, docking, navigation, and multi-vehicle coordination.</p>
+      <p>Students will have opportunities to help develop these platforms and carry theoretical and computational ideas into experimental validation.</p>
     </div>
   </div>
 
@@ -172,38 +135,28 @@ The PhD positions are intentionally **not tied to a single predetermined project
 
 ### Selected work related to these directions
 
-The following papers provide examples of research directions that I plan to expand in the group:
+The following papers illustrate complementary research directions that I plan to expand in the group:
 
 <ul class="selected-work-list">
   <li>
-    <a href="https://doi.org/10.2514/1.A35194" target="_blank" rel="noopener noreferrer">
-      Convex Optimization of Launch Vehicle Ascent Trajectory with Heat-Flux and Splash-Down Constraints
-    </a>
-    — real-time-oriented convex trajectory optimization.
+    <a href="https://doi.org/10.2514/1.G006806" target="_blank" rel="noopener noreferrer">Convex Approach to Covariance Control with Application to Stochastic Low-Thrust Trajectory Optimization</a>
+    — stochastic optimal control and joint trajectory and feedback-policy design (2022).
   </li>
   <li>
-    <a href="https://doi.org/10.2514/1.G006806" target="_blank" rel="noopener noreferrer">
-      Convex Approach to Covariance Control with Application to Stochastic Low-Thrust Trajectory Optimization
-    </a>
-    — uncertainty-aware trajectory and feedback-policy design.
+    <a href="https://doi.org/10.3390/app151910469" target="_blank" rel="noopener noreferrer">Stochastic Path Planning with Obstacle Avoidance for UAVs Using Covariance Control</a>
+    — chance-constrained planning and uncertainty control (2025).
   </li>
   <li>
-    <a href="https://doi.org/10.2514/1.A35076" target="_blank" rel="noopener noreferrer">
-      Deep Learning Techniques for Autonomous Spacecraft Guidance During Proximity Operations
-    </a>
-    — imitation learning and reinforcement learning for autonomous guidance.
+    <a href="https://doi.org/10.2514/1.G008212" target="_blank" rel="noopener noreferrer">Convex Approach to Optimal Spacecraft Attitude Reorientation with Keep-Out Constraints</a>
+    — constrained maneuver design through convex optimization (2026).
   </li>
   <li>
-    <a href="https://doi.org/10.2514/1.G009534" target="_blank" rel="noopener noreferrer">
-      Reinforcement-Learning-Enhanced Model Predictive Control with Application to Autonomous Planetary Landing
-    </a>
-    — hybrid learning and model-based control under uncertainty.
+    <a href="https://doi.org/10.2514/1.G009534" target="_blank" rel="noopener noreferrer">Reinforcement Learning Enhanced Model Predictive Control with Application to Autonomous Planetary Landing</a>
+    — hybrid learning and model-based control (2026).
   </li>
   <li>
-    <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener noreferrer">
-      Physics-Informed Pontryagin Neural Networks for Path-Constrained Optimal Control Problems
-    </a>
-    — physics-informed learning for constrained optimal control.
+    <a href="https://doi.org/10.2514/1.G008854" target="_blank" rel="noopener noreferrer">Physics-Informed Pontryagin Neural Networks for Path-Constrained Optimal Control Problems</a>
+    — learning with embedded dynamics and optimality conditions (2025).
   </li>
 </ul>
 
@@ -221,7 +174,7 @@ The laboratory is currently being established at **OSU-Tulsa**. Its planned capa
   <div class="highlight-card static-card">
     <h3>Computing & Simulation</h3>
     <p>
-      High-performance computing for machine learning, numerical optimization, Monte Carlo analysis,
+      High-performance computing for numerical optimization, stochastic control, machine learning, Monte Carlo analysis,
       and high-fidelity simulation of autonomous aerospace systems.
     </p>
   </div>
@@ -229,7 +182,7 @@ The laboratory is currently being established at **OSU-Tulsa**. Its planned capa
   <div class="highlight-card static-card">
     <h3>Autonomous UAVs & Flight Testing</h3>
     <p>
-      UAV platforms with onboard computing and sensing for autonomous flight, learning-based control,
+      UAV platforms with onboard computing and sensing for autonomous flight, planning and control under uncertainty,
       navigation, and multi-vehicle coordination, supported by indoor motion-capture experiments and
       outdoor flight testing.
     </p>
@@ -282,7 +235,7 @@ There is no single ideal academic background. Relevant preparation may come from
 An **M.S. degree is preferred but not required**. I also encourage strong bachelor's-level students to get in touch if they have developed relevant experience through research, industry, internships, independent projects, or other technical work. 
 A student who already brings a strong combination of skills in areas such as controls, optimization, machine learning, robotics, or autonomous systems may be an excellent fit even without a master's degree.
 
-You are **not expected to have experience in every research area listed above**. I am interested in building a group with complementary strengths. 
+You are **not expected to have experience in every research area listed above**. Strong preparation in control, optimization, probability, or applied mathematics can be an excellent foundation for a project centered on model-based methods. Students with machine learning or experimental experience bring complementary strengths to the group.
 <!-- A student with a strong background in robotics, controls, machine learning, optimization, applied mathematics, or experimental systems may be an excellent fit even without an aerospace background. -->
 If your background is outside traditional aerospace engineering, I am especially interested in understanding how your expertise could contribute to autonomous aerospace systems. Strong candidates should not hesitate to express interest based solely on differences between their academic background and the traditional aerospace engineering path.
 
@@ -298,7 +251,7 @@ Any subset of the following can be valuable:
 
 - dynamics and control;
 - optimal control and numerical optimization;
-- probability, estimation, or stochastic systems;
+- probability, estimation, stochastic systems, or covariance control;
 - machine learning and reinforcement learning;
 - robotics or autonomous systems;
 - numerical methods and scientific computing;
