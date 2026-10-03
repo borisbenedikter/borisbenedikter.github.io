@@ -377,27 +377,27 @@ There is no need to provide recommendation letters at this stage. Please do not 
     <p class="form-note">Select one or more areas that best match your current interests. Experience in every area is not expected.</p>
 
     <label class="checkbox-label">
-      <input type="checkbox" name="research_areas[]" value="Optimization-Based Planning and Control">
+      <input type="checkbox" name="research_areas" value="Optimization-Based Planning and Control">
       Optimization-Based Planning and Control
     </label>
 
     <label class="checkbox-label">
-      <input type="checkbox" name="research_areas[]" value="Stochastic Optimal Control and Covariance Control">
+      <input type="checkbox" name="research_areas" value="Stochastic Optimal Control and Covariance Control">
       Stochastic Optimal Control &amp; Covariance Control
     </label>
 
     <label class="checkbox-label">
-      <input type="checkbox" name="research_areas[]" value="Learning-Enabled and Hybrid Autonomy">
+      <input type="checkbox" name="research_areas" value="Learning-Enabled and Hybrid Autonomy">
       Learning-Enabled &amp; Hybrid Autonomy
     </label>
 
     <label class="checkbox-label">
-      <input type="checkbox" name="research_areas[]" value="Safety Verification and Experimental Autonomous Systems">
+      <input type="checkbox" name="research_areas" value="Safety Verification and Experimental Autonomous Systems">
       Safety, Verification &amp; Experimental Autonomous Systems
     </label>
 
     <label class="checkbox-label">
-      <input type="checkbox" name="research_areas[]" value="Other or Undecided">
+      <input type="checkbox" name="research_areas" value="Other or Undecided">
       Other / Undecided
     </label>
     </fieldset>
@@ -412,7 +412,7 @@ There is no need to provide recommendation letters at this stage. Please do not 
       expertise contributing to autonomous aerospace systems. You may also mention a research question, project, or technical
       problem that you would be especially excited to explore.
     </p>
-    <textarea id="phd-cover-letter" name="research_interest_statement" rows="12" required></textarea>
+    <textarea id="phd-cover-letter" name="cover_letter" rows="12" required></textarea>
   </div>
 
   <div class="form-group">
