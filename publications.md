@@ -30,6 +30,10 @@ These papers illustrate contributions in model-based control and optimization, l
     <a href="https://doi.org/10.3390/app151910469" target="_blank" rel="noopener noreferrer">Stochastic Path Planning with Obstacle Avoidance for UAVs Using Covariance Control</a> (2025)
     — uncertainty shaping and chance-constrained obstacle avoidance.
   </li>
+  <li>
+    <a href="https://doi.org/10.1016/j.actaastro.2026.09.040" target="_blank" rel="noopener noreferrer">Successive Convexification for 6-DoF Moon Landing Using Modified Rodrigues Parameters with Probabilistic Upper and Lower Thrust Bounds</a> (2027)
+    — convex reformulation for joint trajectory and feedback-policy design under uncertainty for 6-DoF Moon landing. 
+  </li>
 </ul>
   </div>
 </details>
